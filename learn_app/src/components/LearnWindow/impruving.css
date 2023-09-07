@@ -5,6 +5,172 @@
 }
 .head1{
     width: 100%;
-    height: 100px;
+    height: 60px;
     background-color: rgb(0, 200, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.startButton{
+    height: 80%;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(94, 92, 207);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+.doneButton{
+    height: 80%;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(94, 92, 207);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+.betweenStart{
+    height: 100%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftSpent{
+    width: 350px;
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+.rightSpent{
+    width: 200px;
+    display: flex;
+    gap: 10px;
+    font-weight: 900;
+}
+.rightSpent span{
+    color: rgb(199, 241, 152);
+}
+.Title{
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 30px;
+    margin-right: 180px;
+}
+.spentTottal{
+    font-weight: 900;
+    color: rgb(26, 11, 137);
+    display: flex;
+    align-items: center;
+}
+.spentTottal span{
+    height: 50px;
+    margin-left: 10px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+.progress{
+    width: 100%;
+    height: 80px;
+}
+.daysInRaw{
+    height: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    margin-top: 5px;
+}
+.daysInRaw div{
+    width: 50px;
+    height: 90%;
+    background-color: rgb(74, 120, 120);
+}
+.typeInfo{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.typeTotal{
+    margin-left: 30px;
+}
+.typeTotal span{
+    margin-left: 10px;
+}
+.typeNow{
+    margin-right: 30px;
+}
+.typeNow span{
+    margin-left: 10px;
+}
+.questionInfo{
+    width: 100%;
+    height:90px ;
+    border: 1px solid rgb(225, 220, 220);
+    position: relative;
+    
+}
+.questionImage{
+ width: 200px;
+ height: 100px;
+ position: absolute;
+ left: 43%;
+ top: -60px;
+ background-color: blue;
+}
+.question{
+    height: 45px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.correct{
+    color: green;
+    
+}
+.ourAnswer{
+    color: red;
+    position: absolute;
+    top: 14px;
+}
+.inputOne{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.totlaCorrect{
+    font-size: 18px;
+    margin-right: 300px;
+}
+.totalOk span{
+    color: green;
+    font-weight: 900;
+}
+.totalNotOk span{
+    color: red;
+}
+.correctNow{
+    font-size: 18px;
+    margin-left: 300px;
+}
+.nowOk span{
+    color: green;
+    font-weight: 900;
+}
+.typedNot span{
+    color: red;
 }
