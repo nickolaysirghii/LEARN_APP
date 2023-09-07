@@ -88,7 +88,91 @@ const Impruving = () => {
               </p>
             </div>
         </div>
+        <div className='rawToSee'>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
         <input className='inputOne' type='text' placeholder='Hallo'></input>
+        <div className='belawInput1'>
+          <div className='butt1'>input</div>
+          <div className='butt1'>first step</div>
+          <div className='butt1'>second step</div>
+          <div className='butt1'>third step</div>
+          <div className='butt1'>forthStep step</div>
+          <div className='butt1'>shaffle</div>
+        </div>
+        <div className='belawInput2'>
+          <div className='firstStep'>
+            <input type='text' placeholder='5' />
+            <p>First step : 5</p>
+          </div>
+          <div className='secondStep'>
+          <input type='text' placeholder='15' />
+            <p>Second step : 15</p>
+          </div>
+          <div className='thirdStep'>
+          <input type='text' placeholder='45' />
+            <p>Third step : 45</p>
+          </div>
+          <div className='forthStep'>
+               <div className='forth11'>
+                   <input type='text' placeholder='45' />
+                     <p>Forth step : 45</p>
+               </div>
+               <div className='forth11'>
+                   <input type='text' placeholder='45' />
+                      <p>the rest : 45</p>
+                      <div className='changerrr'>ok</div>
+               </div>
+          </div>
+
+        </div>
+
     </div>
   )
 }

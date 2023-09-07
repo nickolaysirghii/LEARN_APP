@@ -1,7 +1,8 @@
 .ImpContainer{
     width: 100%;
-    height: 700px;
+    height: 750px;
     border: 1px solid black;
+    position: relative;
 }
 .head1{
     width: 100%;
@@ -135,6 +136,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
+    border:  1px solid red;
 }
 
 .correct{
@@ -145,6 +147,20 @@
     color: red;
     position: absolute;
     top: 14px;
+}
+.rawToSee{
+    width: 100%;
+    height: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.rawToSee div{
+    width: 0.8%;
+    height: 90%;
+    background-color: rgb(96, 221, 173);
 }
 .inputOne{
     width: 100%;
@@ -173,4 +189,90 @@
 }
 .typedNot span{
     color: red;
+}
+.belawInput1{
+    width: 100%;
+    height: 40px;
+    border: 1px solid red;
+    position: absolute;
+    bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.butt1{
+    width: 10%;
+    height: 90%;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.belawInput2{
+    width: 100%;
+    height: 70px;
+    border: 1px solid red;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(98, 199, 109);
+   
+}
+.firstStep{
+    width: 19%;
+    height: 90%;
+    background-color: aqua; 
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+.secondStep{
+    width: 19%;
+    height: 90%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.thirdStep{
+    width: 19%;
+    height: 90%;
+    background-color: aqua;  
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.forthStep{
+    width: 39%;
+    height: 90%;
+    background-color: aqua; 
+    display: flex;
+    position: relative;
+}
+.forth11{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.changerrr{
+    width: 15%;
+    height: 80%;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 40px;
+    
+}
+.belawInput2 input{
+    width: 50px;
 }
