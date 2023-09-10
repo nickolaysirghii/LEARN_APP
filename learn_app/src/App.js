@@ -1,12 +1,13 @@
 
 import './App.css';
-import Impruving from './components/LearnWindow/Impruving';
+import Platform from './components/Platform/Platform';
+
 
 
 function App() {
   return (
     <div className="App">
-    <Impruving />
+     <Platform />
     </div>
   );
 }

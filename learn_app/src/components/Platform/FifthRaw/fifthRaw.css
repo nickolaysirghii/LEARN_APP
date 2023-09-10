@@ -1,0 +1,25 @@
+.fifthRawContainer{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(25, 43, 37);
+}
+.fifthRawContainer input{
+width: 33%;
+}
+.belawContainer3{
+    display: flex;
+}
+.fifthImage{
+    width: 520px;
+    height: 520px;
+}
+.ShowImage{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://education-ga.ketcloud.ket.org/wp-content/uploads/letslearn.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

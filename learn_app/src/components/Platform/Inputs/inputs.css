@@ -1,0 +1,75 @@
+.inputsContainer{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+.insertAnswer{
+    height: 60px;
+    border-radius: 20px;
+}
+.plusButton{
+    width: 50px;
+    border-radius: 10px;
+    background-color: green;
+    cursor: pointer;
+    color: rgb(195, 212, 155);
+}
+.firstStepContainer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(35, 169, 186);
+}
+.firstStepContainer input{
+    width: 40px;
+}
+.forthContainerInput{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.secondStepContainer{
+    width: 100%;
+    height: 260px;
+    border: 1px solid black;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.secondStepContainer input{
+ width: 450px;
+ height: 60px;
+ border-radius: 20px;
+}
+.secondStepContainer button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+.forCopiing{
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid black;
+}
+.forButton{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forButton button{
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    cursor: pointer;
+}

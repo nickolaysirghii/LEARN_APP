@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import  learn  from "./Slices/LearnSlice";
+import  time  from "./Slices/timeSlice";
 
 
 export const store = configureStore({
     reducer: {
-      remember: learn
+     calculate: time
     }
 });

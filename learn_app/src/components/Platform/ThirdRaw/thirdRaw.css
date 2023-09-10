@@ -1,0 +1,12 @@
+.thirdRawContainer{
+    width: 100%;
+    min-height: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 97, 97);
+    color: rgb(122, 190, 103);
+}
+
