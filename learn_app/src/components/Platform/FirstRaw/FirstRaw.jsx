@@ -1,44 +1,91 @@
 import React from 'react';
 import "./firstRaw.css";
-import { useDispatch } from 'react-redux';
-import { setStart , setDone , setCount} from '../../../ReduxStore/Slices/timeSlice';
+import { useDispatch ,useSelector} from 'react-redux';
+import { endToday } from '../../../ReduxStore/Slices/initialStates';
+import { setStart , setDone , setCount , lookTimeNow} from '../../../ReduxStore/Slices/timeSlice';
+import { setRA } from '../../../ReduxStore/Slices/platformSlice';
+import { exempleArray } from '../../../data/platformExemple';
 
-const FirstRaw = ({ totalTime,timeNow,startStatus }) => {
+
+const FirstRaw = ({title,lookTime,totalTime,timeNow,startStatus }) => {
+    const  shuffleArray = (arr)=> {
+        const shuffledArray = [...arr]; 
+        for (let i = shuffledArray.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1)); 
+      
+          [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+        }
+        return shuffledArray;
+        };
+    const { SP1,SP2,SP3,VA1} = useSelector((state)=>state.platSlice);
     const dispatcher = useDispatch();
+    const seconds = totalTime % 60;
+    const minutes = (totalTime / 60) % 60;
+    const hours = ((totalTime/60)/60) % 24;
+    const days = ((totalTime/60)/60)/24;
+
+    const secondsNow = lookTime % 60;
+    const minutesNow = (lookTime / 60) % 60;
+    const hoursNow = ((lookTime/60)/60) % 24;
     
     const showTime = ()=>{
      const a = Date();
-     const hours = Number(a.slice(16 , 18));
-     const minutes = Number(a.slice(19 , 21));
-     const seconds = Number(a.slice(22 , 24));
-      const send = [ hours, minutes, seconds];
-      console.log(send)
-     dispatcher(setCount(send))
+    const send = [ Number(a.slice(16 , 18)), Number(a.slice(19 , 21)), Number(a.slice(22 , 24))];
+    const total = ((send[0]*60)*60)+(send[1]*60)+(send[2]);
+     dispatcher(setCount(total));
+     dispatcher(setStart(true));
+     dispatcher(lookTimeNow(0))
      if(!localStorage.getItem("TotalEnglishTime")){
        localStorage.setItem("TotalEnglishTime",JSON.stringify(0));
      }
-    
+     //==============================================================
+     if(VA1.length === 0){
+     const l1 = Math.ceil(((exempleArray.slice(SP3,exempleArray.length).length)/100)*20)+SP3;
+     const a1 = shuffleArray([...exempleArray.slice(0, SP1),...shuffleArray(exempleArray.slice(SP3,l1)).slice(0,SP1)]);
+     //============================
+     const l2 = Math.ceil((exempleArray.length-SP3) / 2)+SP3
+     const a2 = shuffleArray([...exempleArray.slice(0, SP2),...shuffleArray(exempleArray.slice(l1,l2)).slice(0,SP2)]);
+     //====================
+     const a3 = shuffleArray([...exempleArray.slice(0, SP3),...shuffleArray(exempleArray.slice(l2,exempleArray.length)).slice(0,SP3)]);
+     const data = {
+        setVA:true,
+        data1: a1,
+        data2: a2,
+        data3: a3,
+        
+      }
+     dispatcher(setRA(data))
+    }
+    //==============================================================
     }
     const endTime = ()=>{
         const a = Date();
-        const hours = Number(a.slice(16 , 18));
-        const minutes = Number(a.slice(19 , 21));
-        const seconds = Number(a.slice(22 , 24));
-        const time = [ hours, minutes , seconds]
-        const show = [hours-timeNow[0],minutes-timeNow[1],seconds-timeNow[2]]
-        console.log(time)
-        console.log(show)
+        const send = [ Number(a.slice(16 , 18)), Number(a.slice(19 , 21)), Number(a.slice(22 , 24))];
+        const total = ((send[0]*60)*60)+(send[1]*60)+(send[2]);
+        const getData = JSON.parse(localStorage.getItem("TotalEnglishTime"));
+
+        if(startStatus){
+        const setData =  getData +(total - timeNow); 
+        dispatcher(setDone(setData));
         if(localStorage.getItem("TotalEnglishTime")){
-           localStorage.setItem("TotalEnglishTime",JSON.stringify(time));
-           dispatcher(setDone(time));
-           const send = {
-            start: 0,
-            status: false
-         };
-         dispatcher(setStart(send))
-         dispatcher(setCount([0,0,0]))
+           localStorage.setItem("TotalEnglishTime",JSON.stringify(setData));
+           dispatcher(setStart(false));
+           dispatcher(endToday())
+
         }
     }
+    }
+    const lookTimeFunction = ()=>{
+        const a = Date();
+        const send = [ Number(a.slice(16 , 18)), Number(a.slice(19 , 21)), Number(a.slice(22 , 24))];
+        const total = ((send[0]*60)*60)+(send[1]*60)+(send[2]);
+        const setData =  (total - timeNow);
+        if(startStatus){
+            dispatcher(lookTimeNow(setData))
+        }
+        
+    }
+   
    
 // localStorage.clear()
   return (
@@ -49,7 +96,7 @@ const FirstRaw = ({ totalTime,timeNow,startStatus }) => {
             }
             
             >START</div>
-            <p>D: 0 H: {totalTime[0]} , {totalTime[1]} , {totalTime[2]}</p>
+            <p>D: {days.toFixed()} H: {hours.toFixed()}, {minutes.toFixed()} , {seconds}</p>
         </div>
         <div className='firstRawType'>
             <div>
@@ -63,7 +110,7 @@ const FirstRaw = ({ totalTime,timeNow,startStatus }) => {
                 <p>Wrong: <span className='wrong'>23434</span>/23%</p>
             </div>
         </div>
-        <div className='firstRawTitle'>Title</div>
+        <div className='firstRawTitle'>{title}</div>
         <div className='firstRawType'>
             <div>
                 <p>Correct: <span className='correct'>23434</span>/23%</p>
@@ -77,7 +124,8 @@ const FirstRaw = ({ totalTime,timeNow,startStatus }) => {
             </div>
         </div>
         <div className='firstRawStart'>
-        <p>D: 0 H: {timeNow[0]} , {timeNow[1]} , {timeNow[2]}</p>
+        <div  onClick={lookTimeFunction} className='lookTime'>look</div>
+        <p>H: {hoursNow.toFixed()} , {minutesNow.toFixed()} , {secondsNow.toFixed()}</p>
         <div onClick={endTime} className='firstRawButton'>DONE</div>
         </div>
    </div>

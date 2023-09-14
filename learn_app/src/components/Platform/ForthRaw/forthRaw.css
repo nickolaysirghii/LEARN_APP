@@ -3,8 +3,7 @@
     height: 500px;
     border: 1px solid black;
     overflow: scroll;
-    background-color: rgb(22, 145, 104);
-    color: white;
+    background-color: rgb(183, 192, 198);
 }
 .innerOverflow{
     width: 2000px;
@@ -17,4 +16,16 @@ position: absolute;
 left: 10px;
 top: 13px;
 color: red;
+}
+.TheQuestion{
+  color: rgb(183, 192, 198);
+}
+.TheQuestionWrong{
+  color: blue;
+}
+.TheAnswerWrong{
+position: absolute;
+left: 10px;
+top: 13px;
+color: green;
 }

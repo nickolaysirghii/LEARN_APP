@@ -26,12 +26,7 @@
 .firstStepContainer input{
     width: 40px;
 }
-.forthContainerInput{
-    width: 150px;
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-}
+
 .secondStepContainer{
     width: 100%;
     height: 260px;
@@ -72,4 +67,8 @@
     width: 180px;
     border-radius: 10px;
     cursor: pointer;
+}
+.forCopiing{
+    color: white;
+    padding: 20px;
 }

@@ -8,13 +8,13 @@ import React from 'react';
 
 
 const Platform = () => {
-    const { totalTime , timeNow , start ,startStatus }= useSelector((state)=>state.calculate);
+  const title = "English";
   return (
     <div>
-      <FirstRaw totalTime={totalTime} timeNow={timeNow} start={start} startStatus={startStatus} />
+      <FirstRaw title={title} {...useSelector((state)=>state.calculate)}/>
       <SecondRaw />
-      <ThirdRaw />
-      <FifthRaw />
+      <ThirdRaw {...useSelector((state)=>state.main)} />
+      <FifthRaw title={title} data={useSelector((state)=>state.enter)}/>
       <Footer />
     </div>
   )
