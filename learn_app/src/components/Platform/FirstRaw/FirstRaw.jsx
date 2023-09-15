@@ -40,22 +40,39 @@ const FirstRaw = ({title,lookTime,totalTime,timeNow,startStatus }) => {
      }
      //==============================================================
      if(VA1.length === 0){
-     const l1 = Math.ceil(((exempleArray.slice(SP3,exempleArray.length).length)/100)*20)+SP3;
-     const a1 = shuffleArray([...exempleArray.slice(0, SP1),...shuffleArray(exempleArray.slice(SP3,l1)).slice(0,SP1)]);
-     //============================
-     const l2 = Math.ceil((exempleArray.length-SP3) / 2)+SP3
-     const a2 = shuffleArray([...exempleArray.slice(0, SP2),...shuffleArray(exempleArray.slice(l1,l2)).slice(0,SP2)]);
-     //====================
-     const a3 = shuffleArray([...exempleArray.slice(0, SP3),...shuffleArray(exempleArray.slice(l2,exempleArray.length)).slice(0,SP3)]);
+     const firstStep = exempleArray.slice(0,SP1);
+     const secondStep = exempleArray.slice(0,SP2);
+     const thirdStep = exempleArray.slice(0,SP3);
+     
+     const d = exempleArray.slice(SP3,exempleArray.length);
+     const r = Math.floor((d.length/100)*20)+SP3;
+     const g = Math.floor(d.length/2)+SP3;
+
+     const firstBlock = exempleArray.slice(SP3,r);
+     const secondBlock = exempleArray.slice(r,g);
+     const thirdBlock = exempleArray.slice(g,exempleArray.length);
+
+     const firstBlCat = shuffleArray(firstBlock).slice(0,SP1);
+     const secondBlCat = shuffleArray(secondBlock).slice(0,SP2);
+     const thirdBlCat = shuffleArray(thirdBlock).slice(0,SP3);
+
+     const firstVer = [...firstStep,...firstBlCat];
+     const secondVer = [...secondStep,...secondBlCat];
+     const thirdVer = [...thirdStep,...thirdBlCat];
+
+     const aa = shuffleArray(firstVer);
+     const bb = shuffleArray(secondVer);
+     const cc = shuffleArray(thirdVer);
+
      const data = {
         setVA:true,
-        data1: a1,
-        data2: a2,
-        data3: a3,
+        data1: aa,
+        data2: bb,
+        data3: cc,
         
       }
-     dispatcher(setRA(data))
-    }
+     dispatcher(setRA(data));
+     }
     //==============================================================
     }
     const endTime = ()=>{

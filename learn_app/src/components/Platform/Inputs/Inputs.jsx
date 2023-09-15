@@ -1,11 +1,13 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch , useSelector } from 'react-redux';
 import "./inputs.css";
 import { firstStep,copyQuestion } from '../../../ReduxStore/Slices/inputSlice';
 import { setSteps } from '../../../ReduxStore/Slices/platformSlice';
-
-const Inputs = ({arrayLength,title,step_1,step_2,step_3,step_4,step_5,questionsCopy}) => {
+import { exempleArray } from '../../../data/platformExemple';
+const Inputs = ({title}) => {
   const dispatcher = useDispatch();
+  const { SP1,SP2,SP3,VA1,VA2,VA3,realArray,stepNow,tryNow,questionNow
+  } = useSelector((state)=>state.platSlice);
   
 
 
@@ -25,7 +27,7 @@ const Inputs = ({arrayLength,title,step_1,step_2,step_3,step_4,step_5,questionsC
     e.preventDefault();
     const {question, answer, image1} = e.target;
     const data = {
-      id:arrayLength + 1,
+      id:exempleArray.length + 1,
       dataToday: Date().slice(0,24),
       title,
       question: question.value,
@@ -39,11 +41,11 @@ const Inputs = ({arrayLength,title,step_1,step_2,step_3,step_4,step_5,questionsC
   return (
     <div  className='inputsContainer'>
         <form onSubmit={sendSteps} className='firstStepContainer'>
-            <input  type='text' placeholder={step_1} name='first' />
+            <input  type='text' placeholder={SP1} name='first' />
             
-            <input type='text' placeholder={step_2} name='second' />
+            <input type='text' placeholder={SP2} name='second' />
             
-            <input type='text' placeholder={step_3} name='third' />
+            <input type='text' placeholder={SP3} name='third' />
             
             <button  className='plusButton'>+</button>
             
@@ -56,7 +58,7 @@ const Inputs = ({arrayLength,title,step_1,step_2,step_3,step_4,step_5,questionsC
         </form>
         <div className='forCopiing'>
           {
-            JSON.stringify(questionsCopy)
+            // JSON.stringify(questionsCopy)
           }
 
         </div>

@@ -10,7 +10,7 @@ const ThirdRaw = () => {
   
   return (
     <div className='thirdRawContainer'>
-      <p>{title}/{stepNow}/{tryNow}/<span>{questionNow}</span></p>
+      <p>{title}/stepNow:{stepNow}/tryNow:{tryNow}/questionNow:<span>{questionNow }</span></p>
         {question}
         </div>
   )
