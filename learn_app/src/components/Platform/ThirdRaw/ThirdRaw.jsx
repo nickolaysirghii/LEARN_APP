@@ -8,12 +8,14 @@ const ThirdRaw = () => {
     questionNow } = useSelector((state)=>state.platSlice);
   const { title , question } = realArray[0] ? realArray[0] : exempleArray[0] ;
   
-  return (
-    <div className='thirdRawContainer'>
-      <p>{title}</p>
-        {question}
-        </div>
-  )
+    return (
+      <div className='thirdRawContainer'>
+        <p>{title}</p>
+          {question}
+          </div>
+    )
+
+  
 }
 
 export default ThirdRaw

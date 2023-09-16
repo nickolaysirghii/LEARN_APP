@@ -1,4 +1,5 @@
 import { createSlice  } from "@reduxjs/toolkit";
+import { exempleArray } from "../../data/platformExemple";
 
 const initialState = {
    SP1:5,
@@ -17,12 +18,21 @@ const initialState = {
 
    firstStepInfo: [],
    secondStepInfo: [],
-   thirdStepInfo: []
+   thirdStepInfo: [],
+
+   inputsData: [],
+   inputCount:exempleArray.length + 1
 };
 export const platform = createSlice({
     name: "platform",
     initialState,
     reducers: {
+      setrrr: (state , action )=>{
+        const tt = action.payload.two + action.payload.one + action.payload.three;
+      state.SP1 = action.payload.one;
+      state.SP2 = tt;
+      state.SP3 = tt * 3;
+      },
         setSteps:(state,action)=>{
             const {one, two,three} = action.payload
              state.SP1 = one;
@@ -90,10 +100,14 @@ export const platform = createSlice({
           }
          
         },
+        setInputsData: ( state , action )=>{
+         state.inputsData.unshift(action.payload)
+         state.inputCount +=1
+        }
         
      },
     },
 
 );
-export const {setSteps,setRA} = platform.actions;
+export const {setrrr,setInputsData,setSteps,setRA} = platform.actions;
 export default platform.reducer;
