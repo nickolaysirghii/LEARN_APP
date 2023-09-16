@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(25, 43, 37);
+    background-color: black;
 }
 .fifthRawContainer input{
 width: 33%;

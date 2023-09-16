@@ -1,14 +1,60 @@
 .secondRawContainer{
     width: 100%;
-    height: 30px;
+    height: 50px;
+    background-color: black;
+}
+.stepsTry{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.stepsTry > div{
+    width: 30%;
+    height: 90%;
+    background-color: rgb(125, 115, 103);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+.tryes{
+  width: 19.5%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 200%;
+  background: linear-gradient( -70deg,  rgb(179, 255, 0) 20% ,rgb(250, 250, 253) ,rgb(49, 223, 246) 70%);
+}
+.qRight{
+    font-weight: 900;
+    color: rgb(46, 127, 46);
+    font-size: 50%;
+}
+.middleQ{
+    font-weight: 900;
+    font-size: 50%;
+}
+.qWrong{
+    font-weight: 900;
+    color: rgb(196, 97, 97); 
+    font-size: 50%;
+}
+.QuestionsRR{
+    width: 100%;
+    height: 50%;
     border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2px;
-    background-color: aquamarine;
 }
-.secondRawContainer > div {
+.QuestionsRR > div {
     height: 90%;
     width: 0.9%;
     background-color: black;
@@ -18,7 +64,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
 }
 .With_border{
-    border: 2px solid yellow;
+    border: 1px solid white;
+    transform: rotateZ(45deg);
 }

@@ -25,26 +25,31 @@ const { SP1,SP2,SP3,VA1,VA2,realArray,stepNow,tryNow,questionNow
     if(e.code === "Backslash"){
       e.target.value = "";
       if(stepNow === 1 || stepNow === 2){
+        const ggg = { wrong: 0}
         const data = [];
         realArray.forEach((elem)=>{
          if(elem.answer !== elem.ourAnswer){VA1.forEach((vaelem)=>{if(vaelem.id === elem.id){data.push(vaelem)}})
+         if(elem.answer !== elem.ourAnswer){ ggg.wrong +=1;}
+       
          }
         })
         if(data.length !== 0){
          const fff = shuffleArray(data)
-         dispathcher(setRA({notClear:true, data1:fff}))
+         dispathcher(setRA({notClear:true, data1:fff , data2:ggg}))
         }else{
          dispathcher(setRA({allRight:true})); 
         }
       }else{
+        const ggg = {  wrong: 0}
         const data = [];
         realArray.forEach((elem)=>{
          if(elem.answer !== elem.ourAnswer){VA1.forEach((vaelem)=>{if(vaelem.id === elem.id){data.push(vaelem)}})
+         if(elem.answer !== elem.ourAnswer){ ggg.wrong +=1;}
          }
         })
         if(data.length !== 0){
           const fff = shuffleArray(data)
-         dispathcher(setRA({notClear:true, data1:fff}))
+         dispathcher(setRA({notClear:true, data1:fff , data2:ggg}))
          }else{
           dispathcher(setRA({finish:true}))
          }

@@ -14,6 +14,10 @@ const initialState = {
    stepNow: 1,
    tryNow: 1,
    questionNow: 0,
+
+   firstStepInfo: [],
+   secondStepInfo: [],
+   thirdStepInfo: []
 };
 export const platform = createSlice({
     name: "platform",
@@ -55,13 +59,26 @@ export const platform = createSlice({
             state.stepNow +=1;
           }
           if(action.payload.notClear){
+            const a = {
+              right: state.realArray.length - action.payload.data2.wrong,
+              wrong: action.payload.data2.wrong,
+              try: state.tryNow
+            }
+            if(state.stepNow === 1){
+              state.firstStepInfo.push(a)
+            }
+            if(state.stepNow === 2){
+              state.secondStepInfo.push(a)
+            }
+            if(state.stepNow === 3){
+              state.thirdStepInfo.push(a)
+            }
            state.VA1 = action.payload.data1;
            state.realArray = [];
             state.realArray.push(action.payload.data1[0]);
             state.questionNow = 1;
             state.tryNow +=1;
-
-          }
+            }
           if(action.payload.finish){
             state.VA1 = [];
             state.VA2 = [];
