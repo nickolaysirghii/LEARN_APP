@@ -1,8 +1,12 @@
 import { createSlice  } from "@reduxjs/toolkit";
 
 const initialState = {
-   totalTime : JSON.parse(localStorage.getItem("TotalEnglishTime")) ?
-               JSON.parse(localStorage.getItem("TotalEnglishTime")) : 0,
+  totalTime : JSON.parse(localStorage.getItem("English")) ?
+               JSON.parse(localStorage.getItem("English")) : 0,
+   Git : JSON.parse(localStorage.getItem("Git")) ?
+               JSON.parse(localStorage.getItem("Git")) : 0,
+   SQL :JSON.parse(localStorage.getItem("SQL")) ?
+           JSON.parse(localStorage.getItem("SQL")) : 0,         
    timeNow: 0,
    start: 0,
    lookTime: 0,
@@ -19,7 +23,20 @@ export const time = createSlice({
          state.startStatus = action.payload
        },
        setDone: (state , action)=>{
-         state.totalTime = action.payload
+        if(action.payload.name === "Git"){
+          state.Git = action.payload.data
+        }
+        if(action.payload.name === "English"){
+          state.totalTime = action.payload.data
+        }
+        if(action.payload.name === "SQL"){
+          state.SQL = action.payload.data
+        }
+          
+        
+
+        
+         
        },
        setCount: (state , action )=>{
          state.timeNow = action.payload

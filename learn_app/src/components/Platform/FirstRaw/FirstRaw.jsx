@@ -5,7 +5,10 @@ import { setStart , setDone , setCount , lookTimeNow} from '../../../ReduxStore/
 import { setRA } from '../../../ReduxStore/Slices/platformSlice';
 
 
-const FirstRaw = ({data,title,lookTime,totalTime,timeNow,startStatus }) => {
+const FirstRaw = ({data,title,slice }) => {
+ 
+    const {lookTime,timeNow,startStatus} = useSelector((state)=>state.calculate)
+
     const  shuffleArray = (arr)=> {
         const shuffledArray = [...arr]; 
         for (let i = shuffledArray.length - 1; i > 0; i--) {
@@ -17,10 +20,10 @@ const FirstRaw = ({data,title,lookTime,totalTime,timeNow,startStatus }) => {
         };
     const { SP1,SP2,SP3,VA1} = useSelector((state)=>state.platSlice);
     const dispatcher = useDispatch();
-    const seconds = totalTime % 60;
-    const minutes = (totalTime / 60) % 60;
-    const hours = ((totalTime/60)/60) % 24;
-    const days = ((totalTime/60)/60)/24;
+    const seconds = slice % 60;
+    const minutes = Math.floor(slice / 60) ;
+    const hours = Math.floor(minutes / 60) % 24;
+    const days = ((slice/60)/60)/24;
 
     const secondsNow = lookTime % 60;
     const minutesNow = (lookTime / 60) % 60;
@@ -34,8 +37,8 @@ const FirstRaw = ({data,title,lookTime,totalTime,timeNow,startStatus }) => {
      dispatcher(setCount(total));
      dispatcher(setStart(true));
      dispatcher(lookTimeNow(0))
-     if(!localStorage.getItem("TotalEnglishTime")){
-       localStorage.setItem("TotalEnglishTime",JSON.stringify(0));
+     if(!localStorage.getItem(title)){
+       localStorage.setItem(title,JSON.stringify(0));
      }
      //==============================================================
      if(VA1.length === 0){
@@ -78,13 +81,16 @@ const FirstRaw = ({data,title,lookTime,totalTime,timeNow,startStatus }) => {
         const a = Date();
         const send = [ Number(a.slice(16 , 18)), Number(a.slice(19 , 21)), Number(a.slice(22 , 24))];
         const total = ((send[0]*60)*60)+(send[1]*60)+(send[2]);
-        const getData = JSON.parse(localStorage.getItem("TotalEnglishTime"));
+        const getData = JSON.parse(localStorage.getItem(title));
 
         if(startStatus){
-        const setData =  getData +(total - timeNow); 
+        const setData =  {
+            name:title,
+            data:getData +(total - timeNow)
+        }; 
         dispatcher(setDone(setData));
-        if(localStorage.getItem("TotalEnglishTime")){
-           localStorage.setItem("TotalEnglishTime",JSON.stringify(setData));
+        if(localStorage.getItem(title)){
+           localStorage.setItem(title,JSON.stringify(setData.data));
            dispatcher(setStart(false));
 
         }

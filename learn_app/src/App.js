@@ -2,6 +2,7 @@
 import './App.css';
 import English from './components/English/English';
 import Git from "./components/Git/Git"
+import Sql from "./components/YSQL/Sql"
 import { useDispatch , useSelector } from 'react-redux';
 import {setRA} from './ReduxStore/Slices/platformSlice';
 
@@ -71,6 +72,7 @@ const { VA1,realArray,stepNow,questionNow} = useSelector((state)=>state.platSlic
     <div onKeyUp={keyIndex} className="App">
      <English/>
      <Git />
+     <Sql />
     </div>
   );
 }
