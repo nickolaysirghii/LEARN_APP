@@ -1,5 +1,4 @@
 import { createSlice  } from "@reduxjs/toolkit";
-import { exempleArray } from "../../data/platformExemple";
 
 const initialState = {
    SP1:5,
@@ -21,7 +20,7 @@ const initialState = {
    thirdStepInfo: [],
 
    inputsData: [],
-   inputCount:exempleArray.length + 1
+   inputCount: 0
 };
 export const platform = createSlice({
     name: "platform",
@@ -30,8 +29,8 @@ export const platform = createSlice({
         setrrr: (state , action )=>{
         const tt = action.payload.two + action.payload.one + action.payload.three;
         const mm = (tt * 3) + tt + action.payload.one;
-        const gg = exempleArray.length - (action.payload.one + tt);
-        const tttt = exempleArray.length < mm ? gg : (tt*3);
+        const gg = action.payload.forSet.length - (action.payload.one + tt);
+        const tttt = action.payload.forSet.length < mm ? gg : (tt*3);
         const ppp = tttt < 0 ? gg + tt : tt;
       state.SP1 = action.payload.one;
       state.SP2 = ppp;
@@ -51,6 +50,7 @@ export const platform = createSlice({
            state.VA3 =  action.payload.data3
            state.realArray.push(action.payload.data1[0]);
            state.questionNow +=1;
+           state.inputCount = action.payload.forSet.length ;
           };
           if(action.payload.setRa){
             state.realArray[0].ourAnswer = action.payload.data2;
@@ -61,6 +61,7 @@ export const platform = createSlice({
           if(action.payload.lastQues){
             if(state.realArray.length > 0){
               state.realArray[0].ourAnswer = action.payload.data1
+              state.VA1[state.questionNow-1].fakeAnswer = action.payload.data1
             }
             
           }
@@ -98,14 +99,14 @@ export const platform = createSlice({
             state.VA2 = [];
             state.VA3 = [];
             state.realArray = [];
-            state.questionNow = 0;
+            state.questionNow = 1;
             state.stepNow = 1;
             state.tryNow = 1;
             state.firstStepInfo = [];
             state.secondStepInfo = [];
             state.thirdStepInfo = [];
             state.inputsData = [];
-            state.inputCount = exempleArray.length + 1;
+            
           }
          
         },

@@ -48,9 +48,10 @@ const { VA1,realArray,stepNow,questionNow} = useSelector((state)=>state.platSlic
         })
         if(data.length !== 0){
           const fff = shuffleArray(data)
-         dispathcher(setRA({notClear:true, data1:fff , data2:ggg}))
+         dispathcher(setRA({notClear:true, data1:fff , data2:ggg}));
          }else{
-          dispathcher(setRA({finish:true}))
+          
+          dispathcher(setRA({finish:true }))
          }
         }}
     if(e.code === "Enter"){
@@ -71,8 +72,6 @@ const { VA1,realArray,stepNow,questionNow} = useSelector((state)=>state.platSlic
   return (
     <div onKeyUp={keyIndex} className="App">
      <English/>
-     <Git />
-     <Sql />
     </div>
   );
 }

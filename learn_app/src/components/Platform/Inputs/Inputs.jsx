@@ -20,6 +20,7 @@ const Inputs = ({title , data}) => {
       data.forEach((elem)=>{
       if(elem.addingId === data[ccount1+ccount2].addingId)ccount3 += 1;});
     const data333 = {
+      forSet:data,
       one:ccount1,
       two:ccount2,
       three:ccount3
@@ -42,9 +43,10 @@ e.preventDefault();
   }
   const setNewQuestion = (e)=>{
     e.preventDefault();
+    
     const {question, answer, image1} = e.target;
     const data444 = {
-      id:inputCount,
+      id:inputCount + 1,
       addingId: data[0].addingId + 1,
       dataToday: Date().slice(0,24),
       title,
@@ -67,7 +69,7 @@ e.preventDefault();
             
             <input type='text' placeholder={SP3} name='third' />
             
-            <button  className='plusButton'>+</button>
+            <button  className='plusButton'>{data.length}</button>
             
         </form>
         <form onSubmit={setNewQuestion} className='secondStepContainer'>

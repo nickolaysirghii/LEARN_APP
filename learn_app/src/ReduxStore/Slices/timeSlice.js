@@ -1,4 +1,5 @@
 import { createSlice  } from "@reduxjs/toolkit";
+import { footer } from "../../data/footerData";
 
 const initialState = {
   totalTime : JSON.parse(localStorage.getItem("English")) ?
@@ -11,7 +12,8 @@ const initialState = {
    start: 0,
    lookTime: 0,
    startStatus: false,
-   done: 0
+   done: 0,
+   footerData: footer
 
 };
 export const time = createSlice({
@@ -19,6 +21,9 @@ export const time = createSlice({
     initialState,
     reducers: {
       
+      footerChangeData: ( state , action )=>{
+
+      },
        setStart: (state , action)=>{
          state.startStatus = action.payload
        },

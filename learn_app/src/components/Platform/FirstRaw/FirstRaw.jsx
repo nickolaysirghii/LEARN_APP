@@ -68,9 +68,11 @@ const FirstRaw = ({data,title,slice }) => {
 
      const data333 = {
         setVA:true,
+        ependence:data,
         data1: aa,
         data2: bb,
         data3: cc,
+        forSet: data
         
       }
      dispatcher(setRA(data333));
@@ -122,25 +124,13 @@ const FirstRaw = ({data,title,slice }) => {
         <div className='firstRawType'>
             <div>
                 <p>Correct: <span className='correct'>23434</span>/23%</p>
-                ALL THE TIME
-                <p>Wrong: <span className='wrong'>23434</span>/23%</p>
-            </div>
-            <div>
-            <p>Correct: <span className='correct'>23434</span>/23%</p>
-                TODAY
                 <p>Wrong: <span className='wrong'>23434</span>/23%</p>
             </div>
         </div>
         <div className='firstRawTitle'>{title}</div>
         <div className='firstRawType'>
             <div>
-                <p>Correct: <span className='correct'>23434</span>/23%</p>
-                THIS STEP
-                <p>Wrong: <span className='wrong'>23434</span>/23%</p>
-            </div>
-            <div>
             <p>Correct: <span className='correct'>23434</span>/23%</p>
-                THIS QUESTION
                 <p>Wrong: <span className='wrong'>23434</span>/23%</p>
             </div>
         </div>

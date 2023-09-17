@@ -19,5 +19,8 @@
 .daysInRaw div {
     height: 100%;
     width: 50px;
-    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
 }

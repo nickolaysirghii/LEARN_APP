@@ -1,35 +1,70 @@
 export const GitArray = [
+   
     {
-        "id": 0,
-        "addingId": 0,
-        "dataToday": "Sun Sep 17 2023 04:29:25",
-        "title": "English",
-        "question": "How are you doing ?",
-        "answer": "fine",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url(https://firedandfreecom.files.wordpress.com/2019/01/djo-e1548792615491.png)"
-    }
-   ,{
-        "id": -1,
-        "addingId": -1,
-        "dataToday": "Sun Sep 17 2023 04:14:33",
-        "title": "English",
-        "question": "What shape does the Earth have?",
-        "answer": "sphere",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url(https://solarsystem.nasa.gov/internal_resources/6045/earth.jpg)"
-    },
-    {
-        "id": -2,
-        "addingId": -2,
-        "dataToday": "Sun Sep 17 2023 04:12:13",
-        "title": "English",
-        "question": "What language is this ?",
-        "answer": "English",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url(https://internationalenglishuniversity.com/assets/version2/digital_logic/images/homepage/english-flag.jpg)"
-    }
+            "id": 6,
+            "addingId": 3,
+            "dataToday": "Sun Sep 17 2023 12:56:33",
+            "title": "Git",
+            "question": " Which command adds a change in the working directory to the staging area?",
+            "answer": "git add",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://www.malwarebytes.com/blog/news/2023/01/asset_upload_file97293_255583.jpg)"
+        },
+        {
+            "id": 5,
+            "addingId": 3,
+            "dataToday": "Sun Sep 17 2023 12:55:38",
+            "title": "Git",
+            "question": " Which command is used to fetch and download content from a remote repository and immediately update the local repository to match that content?",
+            "answer": "git pull",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://www.malwarebytes.com/blog/news/2023/01/asset_upload_file97293_255583.jpg)"
+        },
+        {
+            "id": 4,
+            "addingId": 2,
+            "dataToday": "Sun Sep 17 2023 12:07:41",
+            "title": "Git",
+            "question": "Which command displays the state of the working directory?",
+            "answer": "git status",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://images.ctfassets.net/vtn4rfaw6n2j/22OsJeiYGHzXyRr5jLu51/2f4cf4997a46d71ec1c03b6e309d1ded/image5.png)"
+        }
+       ,{
+            "id": 3,
+            "addingId": 1,
+            "dataToday": "Sun Sep 17 2023 11:08:56",
+            "title": "English",
+            "question": "What Is GitHub?",
+            "answer": "A website and cloud-based service.",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://static.vecteezy.com/system/resources/previews/017/119/660/original/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg)"
+        },
+        {
+            "id": 2,
+            "addingId": 1,
+            "dataToday": "Sun Sep 17 2023 11:06:10",
+            "title": "English",
+            "question": "What Is Version Control ?",
+            "answer": "The practice of tracking and managing changes to software code.",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://www.thatcompany.com/wp-content/uploads/2020/03/art5.jpg)"
+        },
+        {
+            "id": 1,
+            "addingId": 1,
+            "dataToday": "Sun Sep 17 2023 11:01:18",
+            "title": "English",
+            "question": "What is Git ?",
+            "answer": "Open-source version control system.",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://www.malwarebytes.com/blog/news/2023/01/asset_upload_file97293_255583.jpg)"
+        }
+      
 ]
