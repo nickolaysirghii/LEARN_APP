@@ -27,12 +27,16 @@ export const platform = createSlice({
     name: "platform",
     initialState,
     reducers: {
-      setrrr: (state , action )=>{
+        setrrr: (state , action )=>{
         const tt = action.payload.two + action.payload.one + action.payload.three;
+        const mm = (tt * 3) + tt + action.payload.one;
+        const gg = exempleArray.length - (action.payload.one + tt);
+        const tttt = exempleArray.length < mm ? gg : (tt*3);
+        const ppp = tttt < 0 ? gg + tt : tt;
       state.SP1 = action.payload.one;
-      state.SP2 = tt;
-      state.SP3 = tt * 3;
-      },
+      state.SP2 = ppp;
+      state.SP3 = tttt >= 0 ? tttt : 0;
+        },
         setSteps:(state,action)=>{
             const {one, two,three} = action.payload
              state.SP1 = one;
@@ -97,6 +101,11 @@ export const platform = createSlice({
             state.questionNow = 0;
             state.stepNow = 1;
             state.tryNow = 1;
+            state.firstStepInfo = [];
+            state.secondStepInfo = [];
+            state.thirdStepInfo = [];
+            state.inputsData = [];
+            state.inputCount = exempleArray.length + 1;
           }
          
         },

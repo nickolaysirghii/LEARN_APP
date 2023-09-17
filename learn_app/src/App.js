@@ -19,7 +19,6 @@ function App() {
 const dispathcher = useDispatch();
 const { SP1,SP2,SP3,VA1,VA2,realArray,stepNow,tryNow,questionNow
    } = useSelector((state)=>state.platSlice);
-
   const keyIndex = (e)=>{
     e.preventDefault();
     if(e.code === "Backslash"){

@@ -48,7 +48,7 @@ e.preventDefault();
     const {question, answer, image1} = e.target;
     const data = {
       id:inputCount,
-      addingId: exempleArray.length,
+      addingId: exempleArray[0].addingId + 1,
       dataToday: Date().slice(0,24),
       title,
       question: question.value,
@@ -86,7 +86,7 @@ e.preventDefault();
 
         </div>
         <div className='forButton'>
-            <button>Clear</button>
+            <button onClick={()=>{console.log(inputsData)}}>console.log(data)</button>
         </div>
     </div>
   )
