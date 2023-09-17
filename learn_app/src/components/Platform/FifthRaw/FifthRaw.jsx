@@ -7,9 +7,8 @@ import { useSelector  } from 'react-redux';
 const FifthRaw = ({title,data}) => {
   
 
-  const { SP1,SP2,SP3,VA1,VA2,realArray,stepNow,tryNow,questionNow
-  } = useSelector((state)=>state.platSlice);
-   let picture = "p"
+  const { realArray} = useSelector((state)=>state.platSlice);
+   let picture = data[0].image
   if(realArray.length > 0){
     picture = realArray[0].image
   }
@@ -24,7 +23,7 @@ const FifthRaw = ({title,data}) => {
      <ForthRaw />
      </div>
      <div className='fifthImage'>
-        <Inputs title={title} {...data} />
+        <Inputs title={title}data={data} />
      </div>
 
      </div>

@@ -1,12 +1,11 @@
 import React from 'react';
 import "./thirdRaw.css";
 import { useSelector } from 'react-redux';
-import { exempleArray } from '../../../data/platformExemple';
 
-const ThirdRaw = () => {
-  const {realArray,stepNow,tryNow,
-    questionNow } = useSelector((state)=>state.platSlice);
-  const { title , question } = realArray[0] ? realArray[0] : exempleArray[0] ;
+
+const ThirdRaw = ({data}) => {
+  const {realArray } = useSelector((state)=>state.platSlice);
+  const { title , question } = realArray[0] ? realArray[0] : data[0] ;
   
     return (
       <div className='thirdRawContainer'>

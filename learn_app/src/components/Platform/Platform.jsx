@@ -7,14 +7,13 @@ import React from 'react';
  import { useSelector } from 'react-redux';
 
 
-const Platform = () => {
-  const title = "English";
+const Platform = ({title,data}) => {
   return (
     <div>
-      <FirstRaw title={title} {...useSelector((state)=>state.calculate)}/>
+      <FirstRaw title={title}data={data} {...useSelector((state)=>state.calculate)} />
       <SecondRaw />
-      <ThirdRaw {...useSelector((state)=>state.main)} />
-      <FifthRaw title={title} data={useSelector((state)=>state.enter)}/>
+      <ThirdRaw title={title}data={data}/>
+      <FifthRaw title={title} data={data}/>
       <Footer />
     </div>
   )

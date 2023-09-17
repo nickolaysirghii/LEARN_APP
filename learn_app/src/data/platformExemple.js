@@ -2,7 +2,31 @@
 
 
 export const exempleArray = [
+
     {
+            "id": 10,
+            "addingId": 5,
+            "dataToday": "Sun Sep 17 2023 07:42:00",
+            "title": "SQL",
+            "question": "What is this ?",
+            "answer": "hedgehog",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://th-thumbnailer.cdn-si-edu.com/PWawDSLo8Sf3enw-Ea2ROasiE-c=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/e7/3f/e73fa3ba-bcaf-444f-87c8-a79cc35a6bd2/domesticated_baby_hedgehog.jpg)"
+        },
+        {
+            "id": 9,
+            "addingId": 5,
+            "dataToday": "Sun Sep 17 2023 07:40:16",
+            "title": "SQL",
+            "question": "What company do you work for?",
+            "answer": "Google",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw)"
+        }
+    
+    ,{
             "id": 8,
             "addingId": 4,
             "dataToday": "Sun Sep 17 2023 05:14:19",

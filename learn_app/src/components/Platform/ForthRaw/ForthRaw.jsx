@@ -3,9 +3,7 @@ import "./forthRaw.css";
 import { useSelector } from 'react-redux';
 
 const ForthRaw = () => {
-  const { step_1,step_2,step_3,step_4,
-    step_5,realArray,stepNow,tryNow,
-    questionNow } = useSelector((state)=>state.platSlice);
+  const { realArray } = useSelector((state)=>state.platSlice);
   return (
     <div className='forthRawContainer'>
         {

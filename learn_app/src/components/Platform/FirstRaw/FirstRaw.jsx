@@ -1,13 +1,11 @@
 import React from 'react';
 import "./firstRaw.css";
 import { useDispatch ,useSelector} from 'react-redux';
-import { endToday } from '../../../ReduxStore/Slices/initialStates';
 import { setStart , setDone , setCount , lookTimeNow} from '../../../ReduxStore/Slices/timeSlice';
 import { setRA } from '../../../ReduxStore/Slices/platformSlice';
-import { exempleArray } from '../../../data/platformExemple';
 
 
-const FirstRaw = ({title,lookTime,totalTime,timeNow,startStatus }) => {
+const FirstRaw = ({data,title,lookTime,totalTime,timeNow,startStatus }) => {
     const  shuffleArray = (arr)=> {
         const shuffledArray = [...arr]; 
         for (let i = shuffledArray.length - 1; i > 0; i--) {
@@ -29,6 +27,7 @@ const FirstRaw = ({title,lookTime,totalTime,timeNow,startStatus }) => {
     const hoursNow = ((lookTime/60)/60) % 24;
     
     const showTime = ()=>{
+        console.log(title)
      const a = Date();
     const send = [ Number(a.slice(16 , 18)), Number(a.slice(19 , 21)), Number(a.slice(22 , 24))];
     const total = ((send[0]*60)*60)+(send[1]*60)+(send[2]);
@@ -40,17 +39,17 @@ const FirstRaw = ({title,lookTime,totalTime,timeNow,startStatus }) => {
      }
      //==============================================================
      if(VA1.length === 0){
-     const firstStep = exempleArray.slice(0,SP1);
-     const secondStep = exempleArray.slice(0,SP2);
-     const thirdStep = exempleArray.slice(0,SP3);
+     const firstStep = data.slice(0,SP1);
+     const secondStep = data.slice(0,SP2);
+     const thirdStep = data.slice(0,SP3);
      
-     const d = exempleArray.slice(SP3,exempleArray.length);
+     const d = data.slice(SP3,data.length);
      const r = Math.floor((d.length/100)*20)+SP3;
      const g = Math.floor(d.length/2)+SP3;
 
-     const firstBlock = exempleArray.slice(SP3,r);
-     const secondBlock = exempleArray.slice(r,g);
-     const thirdBlock = exempleArray.slice(g,exempleArray.length);
+     const firstBlock = data.slice(SP3,r);
+     const secondBlock = data.slice(r,g);
+     const thirdBlock = data.slice(g,data.length);
 
      const firstBlCat = shuffleArray(firstBlock).slice(0,SP1);
      const secondBlCat = shuffleArray(secondBlock).slice(0,SP2);
@@ -64,14 +63,14 @@ const FirstRaw = ({title,lookTime,totalTime,timeNow,startStatus }) => {
      const bb = shuffleArray(secondVer);
      const cc = shuffleArray(thirdVer);
 
-     const data = {
+     const data333 = {
         setVA:true,
         data1: aa,
         data2: bb,
         data3: cc,
         
       }
-     dispatcher(setRA(data));
+     dispatcher(setRA(data333));
      }
     //==============================================================
     }
@@ -87,7 +86,6 @@ const FirstRaw = ({title,lookTime,totalTime,timeNow,startStatus }) => {
         if(localStorage.getItem("TotalEnglishTime")){
            localStorage.setItem("TotalEnglishTime",JSON.stringify(setData));
            dispatcher(setStart(false));
-           dispatcher(endToday())
 
         }
     }

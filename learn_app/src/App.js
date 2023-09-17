@@ -1,9 +1,9 @@
 
 import './App.css';
-import Platform from './components/Platform/Platform';
+import English from './components/English/English';
+import Git from "./components/Git/Git"
 import { useDispatch , useSelector } from 'react-redux';
 import {setRA} from './ReduxStore/Slices/platformSlice';
-import { exempleArray } from './data/platformExemple';
 
 function App() {
 
@@ -17,8 +17,7 @@ function App() {
     return shuffledArray;
     };
 const dispathcher = useDispatch();
-const { SP1,SP2,SP3,VA1,VA2,realArray,stepNow,tryNow,questionNow
-   } = useSelector((state)=>state.platSlice);
+const { VA1,realArray,stepNow,questionNow} = useSelector((state)=>state.platSlice);
   const keyIndex = (e)=>{
     e.preventDefault();
     if(e.code === "Backslash"){
@@ -70,7 +69,8 @@ const { SP1,SP2,SP3,VA1,VA2,realArray,stepNow,tryNow,questionNow
   
   return (
     <div onKeyUp={keyIndex} className="App">
-     <Platform />
+     <English/>
+     <Git />
     </div>
   );
 }

@@ -2,32 +2,29 @@ import React  from 'react';
 import { useState } from 'react';
 import { useDispatch , useSelector } from 'react-redux';
 import "./inputs.css";
-import { firstStep,copyQuestion } from '../../../ReduxStore/Slices/inputSlice';
 import { setSteps,setrrr } from '../../../ReduxStore/Slices/platformSlice';
-import { exempleArray } from '../../../data/platformExemple';
 import { setInputsData } from '../../../ReduxStore/Slices/platformSlice';
 
 
-const Inputs = ({title}) => {
+const Inputs = ({title , data}) => {
   const dispatcher = useDispatch();
-  const { inputCount,inputsData,SP1,SP2,SP3,VA1,VA2,VA3,realArray,stepNow,tryNow,questionNow
-  } = useSelector((state)=>state.platSlice);
+  const { inputCount,inputsData,SP1,SP2,SP3} = useSelector((state)=>state.platSlice);
   useState(()=>{
     let ccount1 = 0;
     let ccount2 = 0;
     let ccount3 = 0;
-    exempleArray.forEach((elem)=>{
-      if(elem.addingId === exempleArray[0].addingId){ccount1 +=1;}});
-    exempleArray.forEach((elem)=>{
-      if(elem.addingId === exempleArray[ccount1].addingId)ccount2 += 1;});
-    exempleArray.forEach((elem)=>{
-      if(elem.addingId === exempleArray[ccount1+ccount2].addingId)ccount3 += 1;});
-    const data = {
+    data.forEach((elem)=>{
+      if(elem.addingId === data[0].addingId){ccount1 +=1;}});
+      data.forEach((elem)=>{
+      if(elem.addingId === data[ccount1].addingId)ccount2 += 1;});
+      data.forEach((elem)=>{
+      if(elem.addingId === data[ccount1+ccount2].addingId)ccount3 += 1;});
+    const data333 = {
       one:ccount1,
       two:ccount2,
       three:ccount3
     }
-    dispatcher(setrrr(data))
+    dispatcher(setrrr(data333))
       },[])
 
 
@@ -46,9 +43,9 @@ e.preventDefault();
   const setNewQuestion = (e)=>{
     e.preventDefault();
     const {question, answer, image1} = e.target;
-    const data = {
+    const data444 = {
       id:inputCount,
-      addingId: exempleArray[0].addingId + 1,
+      addingId: data[0].addingId + 1,
       dataToday: Date().slice(0,24),
       title,
       question: question.value,
@@ -57,7 +54,7 @@ e.preventDefault();
       fakeAnswer: "",
       image: `url(${image1.value})`
     }
-    dispatcher(setInputsData(data))
+    dispatcher(setInputsData(data444))
     e.target.reset();
   }
   
