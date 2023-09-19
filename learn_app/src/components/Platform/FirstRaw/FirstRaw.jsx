@@ -30,7 +30,6 @@ const FirstRaw = ({data,title,slice }) => {
     const hoursNow = ((lookTime/60)/60) % 24;
     
     const showTime = ()=>{
-        console.log(title)
      const a = Date();
     const send = [ Number(a.slice(16 , 18)), Number(a.slice(19 , 21)), Number(a.slice(22 , 24))];
     const total = ((send[0]*60)*60)+(send[1]*60)+(send[2]);

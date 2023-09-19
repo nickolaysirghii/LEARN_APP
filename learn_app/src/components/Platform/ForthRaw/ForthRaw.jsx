@@ -9,7 +9,7 @@ const ForthRaw = () => {
         {
          realArray.length > 0 && realArray.map((elem , idx)=>{
                 return (
-                 <div key={idx} className='innerOverflow'>
+                 <div key={idx} className={elem.ourAnswer === "" ? "hiddenAnswer" : 'innerOverflow'}>
                  <p>{elem.answer}</p>
                  <p className={elem.ourAnswer === elem.answer ?
                    "TheAnswerWrong" : 'TheAnswer'

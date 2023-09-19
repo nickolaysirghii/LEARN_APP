@@ -2,8 +2,118 @@
 
 
 export const exempleArray = [
-
+    
     {
+            "id": 20,
+            "addingId": 7,
+            "dataToday": "Tue Sep 19 2023 13:37:06",
+            "title": "English",
+            "question": "пожимание плечами",
+            "answer": "shrug",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://www.shutterstock.com/shutterstock/photos/298478447/display_1500/stock-photo-portrait-dumb-looking-woman-arms-out-shrugs-shoulders-who-cares-so-what-i-don-t-know-isolated-on-298478447.jpg)"
+        },
+        {
+            "id": 19,
+            "addingId": 7,
+            "dataToday": "Tue Sep 19 2023 13:33:24",
+            "title": "English",
+            "question": "проскочить мимо",
+            "answer": "swing by",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aaf2d98a-f33c-461a-95a4-7dcc63ccd334/dezpm4u-b252356b-5b79-4f0d-ba7a-4fc36757b5e6.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FhZjJkOThhLWYzM2MtNDYxYS05NWE0LTdkY2M2M2NjZDMzNFwvZGV6cG00dS1iMjUyMzU2Yi01Yjc5LTRmMGQtYmE3YS00ZmMzNjc1N2I1ZTYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.__0pgrOdLwyNUs55C9YCMD0OeXElO6ssZ3_uC9rNiok)"
+        },
+        {
+            "id": 18,
+            "addingId": 7,
+            "dataToday": "Tue Sep 19 2023 13:29:45",
+            "title": "English",
+            "question": "прикреплять",
+            "answer": "affix",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://ewozki.eu/userdata/public/gfx/53204/affix.jpg)"
+        },
+        {
+            "id": 17,
+            "addingId": 7,
+            "dataToday": "Tue Sep 19 2023 13:26:39",
+            "title": "English",
+            "question": "погоны",
+            "answer": "shoulder boards",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://shopelc.com/wp-content/uploads/HB.jpg)"
+        },
+        {
+            "id": 16,
+            "addingId": 7,
+            "dataToday": "Tue Sep 19 2023 13:24:21",
+            "title": "English",
+            "question": "выдвижной ящик",
+            "answer": "drawer",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://dictionary.cambridge.org/pl/images/thumb/drawer_noun_002_11525.jpg?version=5.0.333)"
+        },
+        {
+            "id": 15,
+            "addingId": 6,
+            "dataToday": "Tue Sep 19 2023 13:17:53",
+            "title": "English",
+            "question": "шкаф",
+            "answer": "closet",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://d35mbwdnoe7hvk.cloudfront.net/wp-content/uploads/2022/09/custom-closets-reach-in-closet-storage-neutral-finish-california-closets-620x465.jpg)"
+        },
+        {
+            "id": 14,
+            "addingId": 6,
+            "dataToday": "Tue Sep 19 2023 13:16:17",
+            "title": "English",
+            "question": "одежда",
+            "answer": "garment",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://blog.bizvibe.com/wp-content/uploads/2017/09/top-garment-manufacturers-in-India.jpg)"
+        },
+        {
+            "id": 13,
+            "addingId": 6,
+            "dataToday": "Tue Sep 19 2023 13:12:45",
+            "title": "English",
+            "question": "Настойчивый!",
+            "answer": "tenacious",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://www.volusion.com/blog/content/images/2021/07/Tenacious.jpg)"
+        },
+        {
+            "id": 12,
+            "addingId": 6,
+            "dataToday": "Tue Sep 19 2023 13:09:38",
+            "title": "English",
+            "question": "сумрачный",
+            "answer": "dusky",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://cdn0.weddingwire.in/article/9397/3_2/960/jpg/87939-top-beauty-influencers-to-follow-for-dusky-skin-makeup-inspiration-nimisha-ashok-lead.jpeg)"
+        },
+        {
+            "id": 11,
+            "addingId": 6,
+            "dataToday": "Tue Sep 19 2023 13:05:44",
+            "title": "English",
+            "question": "ложа",
+            "answer": "lodge",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://sun9-45.userapi.com/impf/zaXqeVY1-0Av5YefbmER-u7TDkiSJxlq6sNLXw/E9kR8nv4n3o.jpg?size=510x343&quality=96&sign=6cdae4d45cfca8a9bc9ec25f6059a829&type=album)"
+        },
+        {
             "id": 10,
             "addingId": 5,
             "dataToday": "Sun Sep 17 2023 07:42:00",
