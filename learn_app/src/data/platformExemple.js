@@ -2,6 +2,8 @@
 
 
 export const exempleArray = [
+    {"something":45},
+    
     
     {
             "id": 20,
