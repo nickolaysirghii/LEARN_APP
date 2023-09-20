@@ -1,12 +1,12 @@
 import React from 'react';
 import Platform from '../Platform/Platform';
-import { exempleArray } from '../../data/platformExemple';
+import { english } from '../../data/englishData';
 import { useSelector } from 'react-redux';
 
 const Sql = () => {
   const {SQL} = useSelector((state)=>state.calculate)
   return (
-    <Platform title="SQL" data={exempleArray} slice={SQL}/>
+    <Platform title="SQL" data={english} slice={SQL}/>
   )
 }
 
