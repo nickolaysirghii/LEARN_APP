@@ -1,157 +1,126 @@
 export const footer = [
 {
-    id: 1,
-    yes: true,
-    no: 0
+    day:1,
+    time:0
 },
 {
-    id: 2,
-    yes: false,
-    no: 0
+    day:2,
+    time:0
 },
 {
-    id: 3,
-    yes: true,
-    no: 0
+    day:3,
+    time:0
 },
 {
-    id: 4,
-    yes: true,
-    no: 0
+    day:4,
+    time:0
 },
 {
-    id: 5,
-    yes: true,
-    no: 0
+    day:5,
+    time:0
 },
 {
-    id: 6,
-    yes: true,
-    no: 0
+    day:6,
+    time:0
 },
 {
-    id: 7,
-    yes: true,
-    no: 0
+    day:7,
+    time:0
 },
 {
-    id: 8,
-    yes: false,
-    no: 0
+    day:8,
+    time:0
 },
 {
-    id: 9,
-    yes: false,
-    no: 0
+    day:9,
+    time:0
 },
 {
-    id: 10,
-    yes: true,
-    no: 0
+    day:10,
+    time:0
 },
 {
-    id: 11,
-    yes: true,
-    no: 0
+    day:11,
+    time:0
 },
 {
-    id: 12,
-    yes: true,
-    no: 0
+    day:12,
+    time:0
 },
 {
-    id: 13,
-    yes: true,
-    no: 0
+    day:13,
+    time:0
 },
 {
-    id: 14,
-    yes: true,
-    no: 0
+    day:14,
+    time:0
 },
 {
-    id: 15,
-    yes: true,
-    no: 0
+    day:15,
+    time:0
 },
 {
-    id: 16,
-    yes: true,
-    no: 0
+    day:16,
+    time:0
 },
 {
-    id: 17,
-    yes: true,
-    no: 0
+    day:17,
+    time:0
 },
 {
-    id: 18,
-    yes: true,
-    no: 0
+    day:18,
+    time:0
 },
 {
-    id: 19,
-    yes: true,
-    no: 0
+    day:19,
+    time:0
 },
 {
-    id: 20,
-    yes: true,
-    no: 0
+    day:20,
+    time:0
 },
 {
-    id: 21,
-    yes: true,
-    no: 0
+    day:21,
+    time:0
 },
 {
-    id: 22,
-    yes: true,
-    no: 0
+    day:22,
+    time:0
 },
 {
-    id: 23,
-    yes: true,
-    no: 0
+    day:23,
+    time:0
 },
 {
-    id: 24,
-    yes: true,
-    no: 0
+    day:24,
+    time:0
 },
 {
-    id: 25,
-    yes: true,
-    no: 0
+    day:25,
+    time:0
 },
 {
-    id: 26,
-    yes: true,
-    no: 0
+    day:26,
+    time:0
 },
 {
-    id: 27,
-    yes: true,
-    no: 0
+    day:27,
+    time:0
 },
 {
-    id: 28,
-    yes: true,
-    no: 0
+    day:28,
+    time:0
 },
 {
-    id: 29,
-    yes: true,
-    no: 0
+    day:29,
+    time:0
 },
 {
-    id: 30,
-    yes: true,
-    no: 0
+    day:30,
+    time:0
 },
 {
-    id: 31,
-    yes: true,
-    no: 0
+    day:31,
+    time:0
 },
 ]

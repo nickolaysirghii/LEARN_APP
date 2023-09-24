@@ -4,6 +4,7 @@ import { english } from '../../data/englishData';
 import { useSelector } from 'react-redux';
 
 const English = () => {
+ 
   const {totalTime} = useSelector((state)=>state.calculate)
   return (
     <Platform data={english} title="English" slice={totalTime}/>

@@ -15,7 +15,7 @@ const Platform = ({title,data,slice}) => {
       <SecondRaw />
       <ThirdRaw title={title}data={data}/>
       <FifthRaw title={title} data={data}/>
-      <Footer />
+      <Footer  title={title}/>
     </div>
   )
 }

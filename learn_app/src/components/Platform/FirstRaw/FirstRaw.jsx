@@ -3,6 +3,7 @@ import "./firstRaw.css";
 import { useDispatch ,useSelector} from 'react-redux';
 import { setStart , setDone , setCount , lookTimeNow} from '../../../ReduxStore/Slices/timeSlice';
 import { setRA } from '../../../ReduxStore/Slices/platformSlice';
+import { footer } from '../../../data/footerData';
 
 
 const FirstRaw = ({data,title,slice }) => {
@@ -21,13 +22,13 @@ const FirstRaw = ({data,title,slice }) => {
     const { SP1,SP2,SP3,VA1} = useSelector((state)=>state.platSlice);
     const dispatcher = useDispatch();
     const seconds = slice % 60;
-    const minutes = Math.floor(slice / 60) ;
-    const hours = Math.floor(minutes / 60) % 24;
+    const minutes = Math.floor(slice / 60) % 60;
+    const hours = Math.floor(Math.floor(slice / 60) / 60) % 24;
     const days = ((slice/60)/60)/24;
 
     const secondsNow = lookTime % 60;
-    const minutesNow = (lookTime / 60) % 60;
-    const hoursNow = ((lookTime/60)/60) % 24;
+    const minutesNow = Math.floor(lookTime / 60) % 60;
+    const hoursNow = Math.floor((lookTime/60)/60) % 24;
     
     const showTime = ()=>{
      const a = Date();
@@ -89,10 +90,23 @@ const FirstRaw = ({data,title,slice }) => {
             name:title,
             data:getData +(total - timeNow)
         }; 
+        dispatcher(setRA({finish: true}))
         dispatcher(setDone(setData));
         if(localStorage.getItem(title)){
            localStorage.setItem(title,JSON.stringify(setData.data));
            dispatcher(setStart(false));
+//======================================================================================
+           if(localStorage.getItem(`${title}Freequance`)){
+            const a = JSON.parse(localStorage.getItem(`${title}Freequance`));
+
+            a.forEach((elem) => {
+                if(elem.day == Date().slice(8,10)){
+                        elem.time = total - timeNow
+                    }})
+            localStorage.setItem(`${title}Freequance`,JSON.stringify(a))
+           }else{
+            localStorage.setItem(`${title}Freequance`,JSON.stringify(footer))
+           }
 
         }
     }

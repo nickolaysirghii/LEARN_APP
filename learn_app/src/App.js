@@ -1,10 +1,11 @@
 
 import './App.css';
 import English from './components/English/English';
-import Git from "./components/Git/Git"
-import Sql from "./components/YSQL/Sql"
+import Header from './components/1Header/Header';
 import { useDispatch , useSelector } from 'react-redux';
 import {setRA} from './ReduxStore/Slices/platformSlice';
+import { Routes , Route } from 'react-router-dom';
+import { pagesData } from './routes';
 
 function App() {
 
@@ -71,8 +72,16 @@ const { VA1,realArray,stepNow,questionNow} = useSelector((state)=>state.platSlic
   
   return (
     <div onKeyUp={keyIndex} className="App">
-     <English/>
-    </div>
+      
+      <Header />
+      <Routes>
+                  {
+                    pagesData.map((elem,idx)=>{
+                     return <Route key={idx} path={elem.path} Component={elem.element} />
+                    })
+                  }
+      </Routes>
+     </div>
   );
 }
 

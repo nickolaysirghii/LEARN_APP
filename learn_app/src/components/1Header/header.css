@@ -1,0 +1,101 @@
+.heaaderContainer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: black;
+}
+.hedHome{
+    width: 4.5%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url(https://banner2.cleanpng.com/20180409/kaq/kisspng-house-home-insurance-button-leonardo-dicaprio-5acb151f1a3ea0.2256504315232586551075.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.A_3D_container{
+    width: 89%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+.rotateDiv{
+    width: 100%;
+    height: 80%;
+    transition: all 1s;
+    transform-style: preserve-3d;
+    margin-left: 27px;
+    
+    
+}
+.directionRotate{
+    width: 4%;
+    height: 100%;
+    background-image: url(https://cdn.create.vista.com/api/media/small/470878866/stock-vector-arrows-gold-plated-metalic-icon-logo-vector);
+    background-size: contain;
+    margin-left: 2%;
+    cursor: pointer;
+}
+.rotateUp{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+}
+.rotateDown{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:90%;
+}
+.celing{
+    width: 100%;
+    height: 100%;
+    transform: rotateX(90deg) translateZ(28px);
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bottom{
+    width: 100%;
+    height: 100%;
+    transform: rotateX(-90deg) translateZ(-28px) ;
+    background-color: rgb(0, 255, 38);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.front{
+    width: 100%;
+    height: 100%;
+    transform:translateZ(28px) translateY(-200%);
+    background: linear-gradient( 90deg, rgb(0, 225, 255) , rgb(0, 255, 200));
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.back{
+    width: 100%;
+    height: 100%;
+    transform: translateY(-300%) translateZ(-28px) rotateX(180deg);
+    background-color: rgb(155, 186, 33);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.frontDivs{
+    width: 4%;
+    height: 100%;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    box-shadow: rgb(110, 36, 220) 0px 0px 10px 4px;
+}

@@ -1,11 +1,11 @@
 .inputsContainer{
     width: 100%;
-    height: 450px;
+    height: 380px;
     border: 1px solid black;
     overflow: scroll;
 }
 .insertAnswer{
-    height: 60px;
+    height: 40px;
     border-radius: 20px;
 }
 .plusButton{
@@ -17,11 +17,10 @@
 }
 .firstStepContainer{
     width: 100%;
-    height: 50px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(35, 169, 186);
 }
 .firstStepContainer input{
     width: 40px;
@@ -29,9 +28,8 @@
 
 .secondStepContainer{
     width: 100%;
-    height: 200px;
+    height: 150px;
     border: 1px solid black;
-    background-color: aquamarine;
     display: flex;
     flex-direction: column;
     align-items: center;
