@@ -4,6 +4,7 @@ import { spean } from '../../ReduxStore/Slices/animationSlice';
 import { useSelector , useDispatch } from 'react-redux';
 import { headFront } from '../../data/header_frnt';
 import { Link } from 'react-router-dom';
+import EveryHead from './EveryHead';
 
 const Header = () => {
 
@@ -27,9 +28,7 @@ const Header = () => {
                 {
                     headFront.map((elem,idx)=>{
                         return (
-                            <Link to={elem.url} key={idx}  className='frontDivs' 
-                            style={{backgroundImage: elem.image}}
-                            />
+                            <EveryHead  key={idx} data={elem} />
                         )
                     })
                 }

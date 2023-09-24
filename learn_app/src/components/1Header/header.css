@@ -98,4 +98,19 @@
     background-size: contain;
     cursor: pointer;
     box-shadow: rgb(110, 36, 220) 0px 0px 10px 4px;
+    position: relative;
+}
+.SeeIfIs{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border: 5px solid green;
+    border-radius: 50px;
+    top: 0;
+    right: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }

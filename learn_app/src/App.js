@@ -1,6 +1,5 @@
 
 import './App.css';
-import English from './components/English/English';
 import Header from './components/1Header/Header';
 import { useDispatch , useSelector } from 'react-redux';
 import {setRA} from './ReduxStore/Slices/platformSlice';
@@ -81,6 +80,7 @@ const { VA1,realArray,stepNow,questionNow} = useSelector((state)=>state.platSlic
                     })
                   }
       </Routes>
+     
      </div>
   );
 }
