@@ -79,3 +79,11 @@ flex-direction: column;
     color: white;
     cursor: pointer;
 }
+.clearButton > div{
+    width: 60%;
+    height: 30%;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}

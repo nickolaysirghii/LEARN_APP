@@ -1,4 +1,5 @@
 import { createSlice  } from "@reduxjs/toolkit";
+import { english } from "../../data/englishData";
 
 const initialState = {
    SP1:5,
@@ -20,7 +21,8 @@ const initialState = {
    thirdStepInfo: [],
 
    inputsData: [],
-   inputCount: 0
+   inputCount: 0,
+   
 };
 export const platform = createSlice({
     name: "platform",
@@ -114,6 +116,7 @@ export const platform = createSlice({
          state.inputsData.unshift(action.payload)
          state.inputCount +=1
         }
+
         
      },
     },

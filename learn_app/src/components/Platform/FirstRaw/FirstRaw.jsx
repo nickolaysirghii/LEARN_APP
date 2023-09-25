@@ -121,6 +121,13 @@ const FirstRaw = ({data,title,slice }) => {
         }
         
     }
+    const clearHistory = ()=>{
+        const a = JSON.parse(localStorage.getItem(`${title}Freequance`));
+        a.forEach((elem)=>{
+            elem.time = 0;
+        })
+        localStorage.setItem(`${title}Freequance`,JSON.stringify(a))
+    }
    
    
 // localStorage.clear()
@@ -135,6 +142,9 @@ const FirstRaw = ({data,title,slice }) => {
             <p>D: {days.toFixed()} H: {hours.toFixed()}, {minutes.toFixed()} , {seconds}</p>
         </div>
         <div className='firstRawType'>
+        <div className='clearButton'>
+             <div>Something</div>
+            </div>
             <div>
                 <p>Correct: <span className='correct'>23434</span>/23%</p>
                 <p>Wrong: <span className='wrong'>23434</span>/23%</p>
@@ -145,6 +155,9 @@ const FirstRaw = ({data,title,slice }) => {
             <div>
             <p>Correct: <span className='correct'>23434</span>/23%</p>
                 <p>Wrong: <span className='wrong'>23434</span>/23%</p>
+            </div>
+            <div className='clearButton'>
+             <div onClick={clearHistory}>ClearHistory</div>
             </div>
         </div>
         <div className='firstRawStart'>

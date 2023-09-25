@@ -1,5 +1,6 @@
 import { createSlice  } from "@reduxjs/toolkit";
 import { footer } from "../../data/footerData";
+import { english } from "../../data/englishData";
 
 const initialState = {
   totalTime : JSON.parse(localStorage.getItem("English")) ?
@@ -13,7 +14,12 @@ const initialState = {
    lookTime: 0,
    startStatus: false,
    done: 0,
-   footerData: footer
+   footerData: footer,
+
+   workingTitle: "English",
+   workingArray: english,
+   workingSlice: JSON.parse(localStorage.getItem("English")) ?
+                 JSON.parse(localStorage.getItem("English")) : 0,
 
 };
 export const time = createSlice({
@@ -29,13 +35,16 @@ export const time = createSlice({
        },
        setDone: (state , action)=>{
         if(action.payload.name === "Git"){
-          state.Git = action.payload.data
+          state.Git = action.payload.data;
+          state.workingSlice = action.payload.data;
         }
         if(action.payload.name === "English"){
-          state.totalTime = action.payload.data
+          state.totalTime = action.payload.data;
+          state.workingSlice = action.payload.data;
         }
         if(action.payload.name === "SQL"){
-          state.SQL = action.payload.data
+          state.SQL = action.payload.data;
+          state.workingSlice = action.payload.data;
         }
           
         
@@ -48,10 +57,21 @@ export const time = createSlice({
        },
        lookTimeNow: (state , action)=>{
         state.lookTime = action.payload
-       }
+       },
+       setWorking: ( state , action )=>{
+        state.workingTitle = action.payload.title;
+        state.workingArray = action.payload.work;
+        if(action.payload.title === "Git"){
+          state.workingSlice = state.Git
+        }
+        if(action.payload.title === "English"){
+          state.workingSlice = state.totalTime
+        }
+       
+      }
     },
     },
 
 );
-export const {lookTimeNow,setStart,setDone,setCount} = time.actions;
+export const {setWorking,lookTimeNow,setStart,setDone,setCount} = time.actions;
 export default time.reducer;

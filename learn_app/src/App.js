@@ -3,8 +3,8 @@ import './App.css';
 import Header from './components/1Header/Header';
 import { useDispatch , useSelector } from 'react-redux';
 import {setRA} from './ReduxStore/Slices/platformSlice';
-import { Routes , Route } from 'react-router-dom';
-import { pagesData } from './routes';
+import Plaform from "./components/Platform/Platform"
+
 
 function App() {
 
@@ -73,13 +73,7 @@ const { VA1,realArray,stepNow,questionNow} = useSelector((state)=>state.platSlic
     <div onKeyUp={keyIndex} className="App">
       
       <Header />
-      <Routes>
-                  {
-                    pagesData.map((elem,idx)=>{
-                     return <Route key={idx} path={elem.path} Component={elem.element} />
-                    })
-                  }
-      </Routes>
+      <Plaform/>
      
      </div>
   );

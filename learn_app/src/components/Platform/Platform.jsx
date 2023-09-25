@@ -4,18 +4,19 @@ import React from 'react';
  import ThirdRaw from './ThirdRaw/ThirdRaw';
  import FifthRaw from './FifthRaw/FifthRaw';
  import Footer from './Footer/Footer';
+ import { useSelector } from 'react-redux';
 
 
-const Platform = ({title,data,slice}) => {
-
-  return (
+const Platform = () => {
+  const {workingTitle,workingArray,workingSlice} = useSelector((state)=>state.calculate);
+ return (
     
     <div>
-      <FirstRaw title={title}data={data} slice={slice} />
+      <FirstRaw title={workingTitle}data={workingArray} slice={workingSlice} />
       <SecondRaw />
-      <ThirdRaw title={title}data={data}/>
-      <FifthRaw title={title} data={data}/>
-      <Footer  title={title}/>
+      <ThirdRaw title={workingTitle}data={workingArray}/>
+      <FifthRaw title={workingTitle} data={workingArray}/>
+      <Footer  title={workingTitle}/>
     </div>
   )
 }
