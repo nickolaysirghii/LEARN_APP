@@ -11,9 +11,9 @@ const ForthRaw = () => {
                 return (
                  <div key={idx} className={elem.ourAnswer === "" ? "hiddenAnswer" : 'innerOverflow'}>
                  <p>{elem.answer}</p>
-                 <p className={elem.ourAnswer === elem.answer ?
+                 <a href={`https://translate.google.com/?sl=en&tl=ru&text=${elem.answer}&op=translate`} target='_blank' className={elem.ourAnswer === elem.answer ?
                    "TheAnswerWrong" : 'TheAnswer'
-                 }>{elem.ourAnswer}</p>
+                 }>{elem.ourAnswer}</a>
                 </div>
 
                 )

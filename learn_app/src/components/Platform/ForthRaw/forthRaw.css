@@ -16,6 +16,7 @@ position: absolute;
 left: 10px;
 top: 13px;
 color: red;
+text-decoration: none;
 }
 .TheQuestion{
   color: rgb(183, 192, 198);
@@ -28,6 +29,7 @@ position: absolute;
 left: 10px;
 top: 13px;
 color: green;
+text-decoration: none;
 }
 .hiddenAnswer{
   color: rgb(183, 192, 198);

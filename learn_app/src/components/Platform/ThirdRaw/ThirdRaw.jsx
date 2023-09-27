@@ -1,21 +1,16 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 import "./thirdRaw.css";
 import { useSelector } from 'react-redux';
 
 
 const ThirdRaw = ({title2,data}) => {
-  // useEffect(()=>{
-  //   const ddd = Date().slice(8,10);
-  //   console.log(title2)
-  //   console.log(ddd)
-    
-  //  },[])
+
   const {realArray } = useSelector((state)=>state.platSlice);
-  const { title , question } = realArray[0] ? realArray[0] : data[0] ;
+  const { answer , title , question } = realArray[0] ? realArray[0] : data[0] ;
   
     return (
       <div className='thirdRawContainer'>
-        <p>{title}</p>
+        <a href={`https://translate.google.com/?sl=en&tl=ru&text=${answer}&op=translate`}target="_blank">{title}</a>
           <p className='TheQuestionFor'>{question}</p>
           </div>
     )

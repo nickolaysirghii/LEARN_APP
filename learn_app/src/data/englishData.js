@@ -4,6 +4,61 @@
 export const english = [
     
     {
+            "id": 75,
+            "addingId": 18,
+            "dataToday": "Wed Sep 27 2023 12:49:43",
+            "title": "English",
+            "question": "полузащитник",
+            "answer": "halfback",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Marshawn_Lynch_Vegas.jpg/180px-Marshawn_Lynch_Vegas.jpg)"
+        },
+        {
+            "id": 74,
+            "addingId": 18,
+            "dataToday": "Wed Sep 27 2023 12:47:47",
+            "title": "English",
+            "question": "вечеринка",
+            "answer": "potluck party",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://www.signupgenius.com/images/new-landing/potluck/optimized/hero.jpg)"
+        },
+        {
+            "id": 73,
+            "addingId": 18,
+            "dataToday": "Wed Sep 27 2023 12:44:17",
+            "title": "English",
+            "question": "накопление",
+            "answer": "hoarding",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2019/5/Hoarder_room_packed_with_stored_boxes%2C_electronics%2C_files%2C_business_equipment_an_-_trekandshoot_M1_c04631dcfa7244afa6f479046fa0fe15-620x480.jpg)"
+        },
+        {
+            "id": 72,
+            "addingId": 18,
+            "dataToday": "Wed Sep 27 2023 12:41:59",
+            "title": "English",
+            "question": "племянник",
+            "answer": "nephew",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://cdn.langeek.co/photo/28137/original/nephew)"
+        },
+        {
+            "id": 71,
+            "addingId": 18,
+            "dataToday": "Wed Sep 27 2023 12:34:27",
+            "title": "English",
+            "question": "модный,бедро",
+            "answer": "hip",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://www.realmenrealstyle.com/wp-content/uploads/2019/01/25-Ways-To-Dress-Like-A-Hipster.jpg)"
+        },
+        {
             "id": 70,
             "addingId": 17,
             "dataToday": "Mon Sep 25 2023 12:16:40",
