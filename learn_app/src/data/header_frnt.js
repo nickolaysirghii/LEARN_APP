@@ -1,5 +1,6 @@
 import { GitArray } from "./gitData";
-import { english } from "./englishData"
+import { english } from "./englishData";
+import { reactArray } from "./reactData";
 
 
 
@@ -38,7 +39,7 @@ export const headFront = [
         title: "React",
         image: "url(https://w7.pngwing.com/pngs/403/269/png-transparent-react-react-native-logos-brands-in-colors-icon.png)",
         url: "/sql",
-        arr: english,
+        arr: reactArray,
         sill: JSON.parse(localStorage.getItem("English")) ?
               JSON.parse(localStorage.getItem("English")) : 0,
     },

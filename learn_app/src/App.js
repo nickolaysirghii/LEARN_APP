@@ -3,7 +3,8 @@ import './App.css';
 import Header from './components/1Header/Header';
 import { useDispatch , useSelector } from 'react-redux';
 import {setRA} from './ReduxStore/Slices/platformSlice';
-import Plaform from "./components/Platform/Platform"
+import Plaform from "./components/Platform/Platform";
+import ExemUseMemo from './components/useMemoEx/ExemUseMemo';
 
 
 function App() {
@@ -74,6 +75,8 @@ const { VA1,realArray,stepNow,questionNow} = useSelector((state)=>state.platSlic
       
       <Header />
       <Plaform/>
+
+      
      
      </div>
   );

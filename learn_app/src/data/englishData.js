@@ -4,6 +4,61 @@
 export const english = [
     
     {
+            "id": 80,
+            "addingId": 19,
+            "dataToday": "Thu Sep 28 2023 11:48:04",
+            "title": "English",
+            "question": "талон на питание",
+            "answer": "meal ticket",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://i.etsystatic.com/10173366/r/il/8d2e91/1531894592/il_fullxfull.1531894592_nd50.jpg)"
+        },
+        {
+            "id": 79,
+            "addingId": 19,
+            "dataToday": "Thu Sep 28 2023 11:46:33",
+            "title": "English",
+            "question": "отчаянный",
+            "answer": "desperate",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://www.canberratimes.com.au/images/transform/v1/crop/frm/123151812/815722a0-e761-4450-9027-7fc1a471e171.jpg/r313_209_3688_2459_w4000_h2667_fmax.jpg)"
+        },
+        {
+            "id": 78,
+            "addingId": 19,
+            "dataToday": "Thu Sep 28 2023 11:44:22",
+            "title": "English",
+            "question": "сонный",
+            "answer": "groggy",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://www.mattressclarity.com/wp-content/uploads/2018/01/grogginess-featured-image.jpg)"
+        },
+        {
+            "id": 77,
+            "addingId": 19,
+            "dataToday": "Thu Sep 28 2023 11:43:04",
+            "title": "English",
+            "question": "обезболивающие",
+            "answer": "painkillers",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://www.pharmaceutical-technology.com/wp-content/uploads/sites/24/2020/06/painkillers.jpg)"
+        },
+        {
+            "id": 76,
+            "addingId": 19,
+            "dataToday": "Thu Sep 28 2023 11:40:27",
+            "title": "English",
+            "question": "съезжаю с дороги",
+            "answer": "pulling out",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://www.motorbikeclaims.org.uk/wp-content/uploads/2018/06/car-pulls-out-of-side-road-hits-cyclist.png)"
+        },
+        {
             "id": 75,
             "addingId": 18,
             "dataToday": "Wed Sep 27 2023 12:49:43",

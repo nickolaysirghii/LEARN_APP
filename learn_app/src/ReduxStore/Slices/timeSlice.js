@@ -8,7 +8,10 @@ const initialState = {
    Git : JSON.parse(localStorage.getItem("Git")) ?
                JSON.parse(localStorage.getItem("Git")) : 0,
    SQL :JSON.parse(localStorage.getItem("SQL")) ?
-           JSON.parse(localStorage.getItem("SQL")) : 0,         
+           JSON.parse(localStorage.getItem("SQL")) : 0, 
+   react :JSON.parse(localStorage.getItem("React")) ?
+           JSON.parse(localStorage.getItem("React")) : 0,        
+
    timeNow: 0,
    start: 0,
    lookTime: 0,
@@ -46,6 +49,10 @@ export const time = createSlice({
           state.SQL = action.payload.data;
           state.workingSlice = action.payload.data;
         }
+        if(action.payload.name === "React"){
+          state.react = action.payload.data;
+          state.workingSlice = action.payload.data;
+        }
           
         
 
@@ -66,6 +73,9 @@ export const time = createSlice({
         }
         if(action.payload.title === "English"){
           state.workingSlice = state.totalTime
+        }
+        if(action.payload.title === "React"){
+          state.workingSlice = state.react
         }
        
       }

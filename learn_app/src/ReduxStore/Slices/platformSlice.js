@@ -1,5 +1,4 @@
 import { createSlice  } from "@reduxjs/toolkit";
-import { english } from "../../data/englishData";
 
 const initialState = {
    SP1:5,
