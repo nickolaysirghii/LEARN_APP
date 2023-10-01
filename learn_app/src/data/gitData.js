@@ -1,6 +1,17 @@
 export const GitArray = [
-   
+    
     {
+            "id": 7,
+            "addingId": 4,
+            "dataToday": "Thu Sep 28 2023 16:37:15",
+            "title": "Git",
+            "question": "command is used to save your changes to the local repository.",
+            "answer": "git commit",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://res.cloudinary.com/practicaldev/image/fetch/s--ShHSfi-a--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://cl.ly/1N2U2i2Z2C16/Image%25202018-04-11%2520at%252012.47.23%2520PM.png)"
+        },
+        {
             "id": 6,
             "addingId": 3,
             "dataToday": "Sun Sep 17 2023 12:56:33",

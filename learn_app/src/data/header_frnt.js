@@ -1,6 +1,7 @@
 import { GitArray } from "./gitData";
 import { english } from "./englishData";
 import { reactArray } from "./reactData";
+import { JavaScript } from "./JSData";
 
 
 
@@ -26,12 +27,12 @@ export const headFront = [
     },
     {
         id:3,
-        title: "SQL",
-        image: "url(https://www.tenfold-security.com/wp-content/uploads/sql.svg)",
-        url: "/sql",
-        arr: english,
-        sill: JSON.parse(localStorage.getItem("English")) ?
-              JSON.parse(localStorage.getItem("English")) : 0,
+        title: "JS",
+        image: "url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png)",
+        url: "/JavaScript",
+        arr: JavaScript,
+        sill: JSON.parse(localStorage.getItem("JS")) ?
+              JSON.parse(localStorage.getItem("JS")) : 0,
 
     },
     {

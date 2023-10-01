@@ -1,15 +1,15 @@
-import React  from 'react';
-import { useState } from 'react';
+import React, { useEffect }  from 'react';
 import { useDispatch , useSelector } from 'react-redux';
 import "./inputs.css";
 import { setSteps,setrrr } from '../../../ReduxStore/Slices/platformSlice';
 import { setInputsData } from '../../../ReduxStore/Slices/platformSlice';
 
 
+
 const Inputs = ({title , data}) => {
   const dispatcher = useDispatch();
   const { inputCount,inputsData,SP1,SP2,SP3} = useSelector((state)=>state.platSlice);
-  useState(()=>{
+  useEffect(()=>{
     let ccount1 = 0;
     let ccount2 = 0;
     let ccount3 = 0;
@@ -26,7 +26,7 @@ const Inputs = ({title , data}) => {
       three:ccount3
     }
     dispatcher(setrrr(data333))
-      },[])
+      },[title])
 
 
 

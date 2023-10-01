@@ -10,7 +10,9 @@ const initialState = {
    SQL :JSON.parse(localStorage.getItem("SQL")) ?
            JSON.parse(localStorage.getItem("SQL")) : 0, 
    react :JSON.parse(localStorage.getItem("React")) ?
-           JSON.parse(localStorage.getItem("React")) : 0,        
+           JSON.parse(localStorage.getItem("React")) : 0, 
+   JS :JSON.parse(localStorage.getItem("JS")) ?
+        JSON.parse(localStorage.getItem("JS")) : 0,      
 
    timeNow: 0,
    start: 0,
@@ -53,6 +55,10 @@ export const time = createSlice({
           state.react = action.payload.data;
           state.workingSlice = action.payload.data;
         }
+        if(action.payload.name === "JS"){
+          state.JS = action.payload.data;
+          state.workingSlice = action.payload.data;
+        }
           
         
 
@@ -76,6 +82,9 @@ export const time = createSlice({
         }
         if(action.payload.title === "React"){
           state.workingSlice = state.react
+        }
+        if(action.payload.title === "JS"){
+          state.workingSlice = state.JS
         }
        
       }

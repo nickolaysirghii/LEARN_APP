@@ -7,8 +7,9 @@ import { footer } from '../../../data/footerData';
 
 
 const FirstRaw = ({data,title,slice }) => {
+
  
-    const {lookTime,timeNow,startStatus} = useSelector((state)=>state.calculate)
+    const {lookTime,timeNow,startStatus} = useSelector((state)=>state.calculate);
 
     const  shuffleArray = (arr)=> {
         const shuffledArray = [...arr]; 
@@ -128,6 +129,8 @@ const FirstRaw = ({data,title,slice }) => {
         })
         localStorage.setItem(`${title}Freequance`,JSON.stringify(a))
     }
+
+    
    
    
 // localStorage.clear()
