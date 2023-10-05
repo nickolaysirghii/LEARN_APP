@@ -3,6 +3,8 @@ import { footer } from "../../data/footerData";
 import { english } from "../../data/englishData";
 
 const initialState = {
+  AllTogether : JSON.parse(localStorage.getItem("AllTogether")) ?
+               JSON.parse(localStorage.getItem("AllTogether")) : 0,
   totalTime : JSON.parse(localStorage.getItem("English")) ?
                JSON.parse(localStorage.getItem("English")) : 0,
    Git : JSON.parse(localStorage.getItem("Git")) ?
@@ -12,7 +14,11 @@ const initialState = {
    react :JSON.parse(localStorage.getItem("React")) ?
            JSON.parse(localStorage.getItem("React")) : 0, 
    JS :JSON.parse(localStorage.getItem("JS")) ?
-        JSON.parse(localStorage.getItem("JS")) : 0,      
+        JSON.parse(localStorage.getItem("JS")) : 0, 
+  Linux :JSON.parse(localStorage.getItem("Linux")) ?
+          JSON.parse(localStorage.getItem("Linux")) : 0, 
+  Polish : JSON.parse(localStorage.getItem("Polish")) ?
+           JSON.parse(localStorage.getItem("Polish")) : 0,       
 
    timeNow: 0,
    start: 0,
@@ -59,6 +65,18 @@ export const time = createSlice({
           state.JS = action.payload.data;
           state.workingSlice = action.payload.data;
         }
+        if(action.payload.name === "AllTogether"){
+          state.AllTogether = action.payload.data;
+          state.workingSlice = action.payload.data;
+        }
+        if(action.payload.name === "Linux"){
+          state.Linux = action.payload.data;
+          state.workingSlice = action.payload.data;
+        }
+        if(action.payload.name === "Polish"){
+          state.Polish = action.payload.data;
+          state.workingSlice = action.payload.data;
+        }
           
         
 
@@ -85,6 +103,15 @@ export const time = createSlice({
         }
         if(action.payload.title === "JS"){
           state.workingSlice = state.JS
+        }
+        if(action.payload.title === "AllTogether"){
+          state.workingSlice = state.AllTogether
+        }
+        if(action.payload.title === "Linux"){
+          state.workingSlice = state.Linux
+        }
+        if(action.payload.title === "Polish"){
+          state.workingSlice = state.Polish
         }
        
       }

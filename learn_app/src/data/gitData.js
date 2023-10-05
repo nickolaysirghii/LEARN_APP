@@ -1,5 +1,82 @@
 export const GitArray = [
     
+        {
+            "id": 14,
+            "addingId": 8,
+            "dataToday": "Thu Oct 05 2023 14:02:17",
+            "title": "Git",
+            "question": "How to restore the file from the index.",
+            "answer": "git restore name",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://www.restore-dhc.eu/wp-content/uploads/2022/01/RESTORE-Logo.png)"
+        },
+        {
+            "id": 13,
+            "addingId": 7,
+            "dataToday": "Thu Oct 05 2023 13:52:46",
+            "title": "Git",
+            "question": "How to revert the latest changes to the last commit?",
+            "answer": "git checkout name",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://phoenixnap.com/kb/wp-content/uploads/2021/04/how-to-revert-the-last-commit-in-git.png)"
+        },
+        {
+            "id": 12,
+            "addingId": 7,
+            "dataToday": "Thu Oct 05 2023 13:46:24",
+            "title": "Git",
+            "question": "How to skip the \"add\" command and commit the changes?",
+            "answer": "git commit -a -m \"comment\"",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://www.earthdatascience.org/images/earth-analytics/git-version-control/git-add-commit.png)"
+        },
+        {
+            "id": 11,
+            "addingId": 6,
+            "dataToday": "Thu Oct 05 2023 13:34:34",
+            "title": "Git",
+            "question": "How to Remove a Git Remote?",
+            "answer": "git remote remove name",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://phoenixnap.com/kb/wp-content/uploads/2021/04/how-to-remove-a-git-remote.png)"
+        },
+        {
+            "id": 10,
+            "addingId": 6,
+            "dataToday": "Thu Oct 05 2023 13:28:01",
+            "title": "Git",
+            "question": "How to get help from Git when we forgot what the command can do?",
+            "answer": "git command --help",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url(https://www.softwaretestingo.com/wp-content/uploads/2022/06/Git-Help-2.png)"
+        },
+        {
+        "id": 9,
+        "addingId": 5,
+        "dataToday": "Thu Oct 05 2023 13:19:12",
+        "title": "Linux",
+        "question": "How to Change a Local Branch Name?",
+        "answer": "git branch -m name",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url(https://img.freepik.com/darmowe-wektory/galaz-drzewa-na-bialym-tle_1308-117449.jpg?w=2000)"
+    },
+    {
+        "id": 8,
+        "addingId": 5,
+        "dataToday": "Thu Oct 05 2023 13:09:57",
+        "title": "Linux",
+        "question": "How to check to which repository project is connected?",
+        "answer": "git remote -v",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url(https://cdn.educba.com/academy/wp-content/uploads/2020/03/GIT-Repository-m.jpg)"
+    },
     {
             "id": 7,
             "addingId": 4,

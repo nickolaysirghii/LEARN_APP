@@ -28,7 +28,7 @@ export const JavaScript = [
             "dataToday": "Sun Oct 01 2023 03:04:22",
             "title": "JS",
             "question": "What is the web page size ?",
-            "answer": "the width and height of the page content rendered",
+            "answer": "the page content rendered",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://dmitripavlutin.com/static/50a8a81657b2fc609a356faf0d2a4314/57162/web-page-size.png)"
@@ -83,7 +83,7 @@ export const JavaScript = [
             "dataToday": "Sun Oct 01 2023 02:54:16",
             "title": "JS",
             "question": "What is the window inner size (aka viewport size) ?",
-            "answer": "the width and height of the viewport that displays the web page",
+            "answer": "the viewport that displays the web page",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://dmitripavlutin.com/static/ae1c8d402206707a196958e8644159f8/57162/window-inner-size-2.png)"
@@ -116,7 +116,7 @@ export const JavaScript = [
             "dataToday": "Sun Oct 01 2023 02:49:51",
             "title": "JS",
             "question": "What is the window outer size ?",
-            "answer": "the width and height of the entire browser window",
+            "answer": "the entire browser window",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://dmitripavlutin.com/static/45993463dc8c98824b3188bc3f5696da/57162/window-outer-size-2.png)"
@@ -149,7 +149,7 @@ export const JavaScript = [
             "dataToday": "Sun Oct 01 2023 02:42:22",
             "title": "JS",
             "question": "What is the available screen size ?",
-            "answer": "the width and height of the active screen without the Operating System toolbars",
+            "answer": "the active screen without the Operating System toolbars",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://dmitripavlutin.com/static/036e8d1e204812fe8aca25ddfa28e3e3/57162/avail-screen-size-3.png)"

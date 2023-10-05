@@ -148,17 +148,9 @@ const FirstRaw = ({data,title,slice }) => {
         <div className='clearButton'>
              <div>Something</div>
             </div>
-            <div>
-                <p>Correct: <span className='correct'>23434</span>/23%</p>
-                <p>Wrong: <span className='wrong'>23434</span>/23%</p>
-            </div>
         </div>
         <div className='firstRawTitle'>{title}</div>
         <div className='firstRawType'>
-            <div>
-            <p>Correct: <span className='correct'>23434</span>/23%</p>
-                <p>Wrong: <span className='wrong'>23434</span>/23%</p>
-            </div>
             <div className='clearButton'>
              <div onClick={clearHistory}>ClearHistory</div>
             </div>

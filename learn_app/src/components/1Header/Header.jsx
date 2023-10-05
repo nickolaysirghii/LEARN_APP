@@ -3,6 +3,7 @@ import "./header.css";
 import { spean } from '../../ReduxStore/Slices/animationSlice';
 import { useSelector , useDispatch } from 'react-redux';
 import { headFront } from '../../data/header_frnt';
+import { bottomHeader } from '../../data/bottomData/bottom_data';
 import EveryHead from './EveryHead';
 
 const Header = () => {
@@ -22,7 +23,15 @@ const Header = () => {
                  style={{transform: `rotateX(${position}deg)`}}
         >
             <div className='celing'>top</div>
-            <div className='bottom'>bottom</div>
+            <div className='bottom'>
+                {
+                  bottomHeader.map((elem,idx)=>{
+                           return (
+                          <EveryHead  key={idx} data={elem} />
+                        )
+                         })
+                }
+            </div>
             <div className='front'>
                 {
                     headFront.map((elem,idx)=>{

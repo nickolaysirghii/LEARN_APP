@@ -2,18 +2,18 @@ export const reactArray = [
 
     {
             "id": 10,
-            "addingId": 6,
+            "addingId": 8,
             "dataToday": "Thu Sep 28 2023 16:06:54",
             "title": "React",
             "question": "What is redux?",
-            "answer": "JavaScript library that is designed to manage the state of data in JavaScript applications.",
+            "answer": "JavaScript library designed to manage the state of data in JavaScript applications.",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://redux.js.org/img/redux-logo-landscape.png)"
         },
         {
             "id": 9,
-            "addingId": 6,
+            "addingId": 7,
             "dataToday": "Thu Sep 28 2023 16:04:17",
             "title": "React",
             "question": "what is react-redux?",
@@ -46,7 +46,7 @@ export const reactArray = [
         },
         {
             "id": 6,
-            "addingId": 5,
+            "addingId": 4,
             "dataToday": "Thu Sep 28 2023 15:51:31",
             "title": "React",
             "question": "What does useEffect do?",
@@ -57,7 +57,7 @@ export const reactArray = [
         },
         {
             "id": 5,
-            "addingId": 4,
+            "addingId": 3,
             "dataToday": "Thu Sep 28 2023 14:04:04",
             "title": "React",
             "question": "What is \"useMemo\"?",
@@ -68,7 +68,7 @@ export const reactArray = [
         },
         {
             "id": 4,
-            "addingId": 3,
+            "addingId": 2,
             "dataToday": "Thu Sep 28 2023 14:00:48",
             "title": "React",
             "question": "\"How to declare the \"useMemo\" in react ?\"",

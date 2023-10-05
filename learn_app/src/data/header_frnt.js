@@ -2,20 +2,13 @@ import { GitArray } from "./gitData";
 import { english } from "./englishData";
 import { reactArray } from "./reactData";
 import { JavaScript } from "./JSData";
+import { allTogether } from "./allTogether/allData";
+import { LinuxArray } from "./linuxData";
 
 
 
 export const headFront = [
-    {
-        id:1,
-        title: "English",
-        image: "url(https://static.vecteezy.com/system/resources/thumbnails/011/571/351/small/circle-flag-of-uk-free-png.png)",
-        url: "/",
-        arr: english,
-        sill: JSON.parse(localStorage.getItem("English")) ?
-              JSON.parse(localStorage.getItem("English")) : 0,
-
-    },
+   
     {
         id:2,
         title: "Git",
@@ -46,20 +39,20 @@ export const headFront = [
     },
     {
         id:5,
-        title: "Deutsch",
-        image: "url(https://play-lh.googleusercontent.com/QCOAKfY91JU_JZvTz-BNQCWvYTmE79i6uJcdkI2v-vH-Agqqk16tEWPBnwADX0w_Yv8)",
-        url: "/sql",
-        arr: english,
-        sill: JSON.parse(localStorage.getItem("English")) ?
-              JSON.parse(localStorage.getItem("English")) : 0,
+        title: "Linux",
+        image: "url(https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/a4/54f3b90a5d4aa29c1d838fa815dbf6/LFCA.png?auto=format%2Ccompress&dpr=1)",
+        url: "/linux",
+        arr: LinuxArray,
+        sill: JSON.parse(localStorage.getItem("Linux")) ?
+              JSON.parse(localStorage.getItem("Linux")) : 0,
     },
     {
         id:6,
-        title: "Something",
+        title: "AllTogether",
         image: "url(https://www.neonvibes.co.uk/cdn/shop/products/NV-Do-Something-Greatneonvibes.co.ukLEDneonsignsMadeintheUK_4_2000x.jpg?v=1665760799)",
-        url: "/sql",
-        arr: english,
-        sill: JSON.parse(localStorage.getItem("English")) ?
-              JSON.parse(localStorage.getItem("English")) : 0,
+        url: "/AllTogether",
+        arr: allTogether,
+        sill: JSON.parse(localStorage.getItem("AllTogether")) ?
+              JSON.parse(localStorage.getItem("AllTogether")) : 0,
     }
 ]
