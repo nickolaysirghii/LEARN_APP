@@ -46,14 +46,15 @@ const FirstRaw = ({data,title,slice }) => {
      const firstStep = data.slice(0,SP1);
      const secondStep = data.slice(0,SP2);
      const thirdStep = data.slice(0,SP3);
-     
-     const d = data.slice(SP3,data.length);
-     const r = Math.floor((d.length/100)*20)+SP3;
-     const g = Math.floor(d.length/2)+SP3;
 
-     const firstBlock = data.slice(SP3,r);
-     const secondBlock = data.slice(r,g);
-     const thirdBlock = data.slice(g,data.length);
+     const d = data.slice(SP3,data.length);
+
+     const bomb1 = Math.floor((d.length / 100)*20)
+     const bomb2 = Math.floor((d.length / 100)*30)
+     
+     const firstBlock = d.slice(0,bomb1);
+     const secondBlock = d.slice(bomb1,bomb1+bomb2);
+     const thirdBlock = d.slice(bomb1+bomb2,d.length);
 
      const firstBlCat = shuffleArray(firstBlock).slice(0,SP1);
      const secondBlCat = shuffleArray(secondBlock).slice(0,SP2);
