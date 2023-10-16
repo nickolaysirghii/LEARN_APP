@@ -28,7 +28,7 @@ export const reactArray = [
             "dataToday": "Fri Oct 06 2023 12:29:59",
             "title": "React",
             "question": "what is main difference between redux and redux toolkit?",
-            "answer": "a lot lesser boilerplate code is required compared to Redux",
+            "answer": "a lot lesser boilerplate code is required",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://media.licdn.com/dms/image/D5612AQFcwVrtpQKTUQ/article-cover_image-shrink_720_1280/0/1688295760381?e=2147483647&v=beta&t=XBJLJyCx1IjfTfvfCpEDRvNwMC603oc95IKOIX-YqXY)"

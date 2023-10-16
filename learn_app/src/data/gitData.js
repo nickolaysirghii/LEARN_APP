@@ -94,7 +94,7 @@ export const GitArray = [
             "dataToday": "Sun Sep 17 2023 12:56:33",
             "title": "Git",
             "question": " Which command adds a change in the working directory to the staging area?",
-            "answer": "git add",
+            "answer": "git add name",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://www.malwarebytes.com/blog/news/2023/01/asset_upload_file97293_255583.jpg)"
@@ -127,7 +127,7 @@ export const GitArray = [
             "dataToday": "Sun Sep 17 2023 11:08:56",
             "title": "English",
             "question": "What Is GitHub?",
-            "answer": "A website and cloud-based service.",
+            "answer": "a website and cloud-based service",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://static.vecteezy.com/system/resources/previews/017/119/660/original/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg)"
@@ -138,7 +138,7 @@ export const GitArray = [
             "dataToday": "Sun Sep 17 2023 11:06:10",
             "title": "English",
             "question": "What Is Version Control ?",
-            "answer": "The practice of tracking and managing changes to software code.",
+            "answer": "the practice of tracking and managing changes to software code",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://www.thatcompany.com/wp-content/uploads/2020/03/art5.jpg)"
@@ -149,7 +149,7 @@ export const GitArray = [
             "dataToday": "Sun Sep 17 2023 11:01:18",
             "title": "English",
             "question": "What is Git ?",
-            "answer": "Open-source version control system.",
+            "answer": "open-source version control system",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://www.malwarebytes.com/blog/news/2023/01/asset_upload_file97293_255583.jpg)"

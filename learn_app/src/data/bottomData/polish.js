@@ -6,7 +6,7 @@ export const polishLanguage = [
             "dataToday": "Thu Oct 05 2023 14:52:13",
             "title": "Polish",
             "question": "They want",
-            "answer": "Chca",
+            "answer": "chca",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://i.ytimg.com/vi/Gn6gNZ5BQyc/maxresdefault.jpg)"
@@ -17,7 +17,7 @@ export const polishLanguage = [
             "dataToday": "Thu Oct 05 2023 14:50:54",
             "title": "Polish",
             "question": "He wants",
-            "answer": "On chce",
+            "answer": "on chce",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://www.lovepanky.com/wp-content/uploads/2020/06/Signs-He-Wants-You-to-Notice-Him-Back.jpg)"
@@ -28,7 +28,7 @@ export const polishLanguage = [
             "dataToday": "Thu Oct 05 2023 14:49:48",
             "title": "Polish",
             "question": "She wants",
-            "answer": "Ona chce",
+            "answer": "ona chce",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/All_That_She_Wants_%28Ace_of_Base_single_-_cover_art%29.jpg/220px-All_That_She_Wants_%28Ace_of_Base_single_-_cover_art%29.jpg)"
@@ -39,7 +39,7 @@ export const polishLanguage = [
             "dataToday": "Thu Oct 05 2023 14:48:39",
             "title": "Polish",
             "question": "You want",
-            "answer": "Chcesz",
+            "answer": "chcesz",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://jcsolorio.files.wordpress.com/2015/05/what-do-you-want.jpg)"
@@ -50,7 +50,7 @@ export const polishLanguage = [
             "dataToday": "Thu Oct 05 2023 14:47:05",
             "title": "Polish",
             "question": "I want",
-            "answer": "Chce",
+            "answer": "chce",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://beforeiapply.files.wordpress.com/2013/01/i-want.jpg)"
@@ -72,7 +72,7 @@ export const polishLanguage = [
             "dataToday": "Thu Oct 05 2023 14:44:35",
             "title": "Polish",
             "question": "Job",
-            "answer": "Stanowisko",
+            "answer": "stanowisko",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://pro-gamer.pl/wp-content/uploads/2021/06/AdobeStock_353306337-1024x540.jpeg)"
@@ -83,7 +83,7 @@ export const polishLanguage = [
             "dataToday": "Thu Oct 05 2023 14:41:06",
             "title": "Polish",
             "question": "Я знаю",
-            "answer": "Ja wiem",
+            "answer": "ja wiem",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://i.kfs.io/album/global/77269452,0v1/fit/500x500.jpg)"
@@ -94,7 +94,7 @@ export const polishLanguage = [
             "dataToday": "Thu Oct 05 2023 14:39:31",
             "title": "Polish",
             "question": "завтра ",
-            "answer": "Jutro",
+            "answer": "jutro",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://charaktery.eu/media/cache/article_full_1140_377/uploads/5ec/cda/5eccda4239938026857410.jpeg?extension=jpg&version=502)"
@@ -105,7 +105,7 @@ export const polishLanguage = [
             "dataToday": "Thu Oct 05 2023 14:38:34",
             "title": "Polish",
             "question": "сегодня",
-            "answer": "Dzisiaj",
+            "answer": "dzisiaj",
             "ourAnswer": "",
             "fakeAnswer": "",
             "image": "url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Blank_Calendar_page_icon.svg/220px-Blank_Calendar_page_icon.svg.png)"
