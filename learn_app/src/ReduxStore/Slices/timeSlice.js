@@ -18,7 +18,9 @@ const initialState = {
   Linux :JSON.parse(localStorage.getItem("Linux")) ?
           JSON.parse(localStorage.getItem("Linux")) : 0, 
   Polish : JSON.parse(localStorage.getItem("Polish")) ?
-           JSON.parse(localStorage.getItem("Polish")) : 0,       
+           JSON.parse(localStorage.getItem("Polish")) : 0, 
+  Countries : JSON.parse(localStorage.getItem("Countries")) ?
+           JSON.parse(localStorage.getItem("Countries")) : 0,      
 
    timeNow: 0,
    start: 0,
@@ -77,6 +79,10 @@ export const time = createSlice({
           state.Polish = action.payload.data;
           state.workingSlice = action.payload.data;
         }
+        if(action.payload.name === "Countries"){
+          state.Countries = action.payload.data;
+          state.workingSlice = action.payload.data;
+        }
           
         
 
@@ -112,6 +118,9 @@ export const time = createSlice({
         }
         if(action.payload.title === "Polish"){
           state.workingSlice = state.Polish
+        }
+        if(action.payload.title === "Countries"){
+          state.workingSlice = state.Countries
         }
        
       }

@@ -10,7 +10,13 @@ const FifthRaw = ({title,data}) => {
   const { realArray} = useSelector((state)=>state.platSlice);
    let picture = data[0].image
   if(realArray.length > 0){
+  
     picture = realArray[0].image
+ 
+    
+      
+    
+    
   }
   return (
     <div className='fifthRawContainer'> 
