@@ -10,14 +10,14 @@ const FifthRaw = ({title,data}) => {
   const { realArray} = useSelector((state)=>state.platSlice);
    let picture = data[0].image
   if(realArray.length > 0){
-  
+   if(title = "Countries"){
     picture = realArray[0].image
- 
+   }else{
+    picture = realArray[0].image
+   }
     
-      
-    
-    
-  }
+   
+    }
   return (
     <div className='fifthRawContainer'> 
      <input className='insertAnswer' type='text' placeholder='hallo' />

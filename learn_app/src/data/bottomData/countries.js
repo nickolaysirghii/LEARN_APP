@@ -9,7 +9,9 @@ export const ccoountries = [
             "answer": "Austria Vienna",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt-dhKrfU06aG6sSfkE0E4NmRWjsOe1zYjmw&usqp=CAU)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA9A4HDoQiSvVKELnJ8usNkCaHpE-6XM3uQg&usqp=CAU)",
+            "image": "url(https://media.istockphoto.com/id/470862988/vector/austria-country-map.jpg?s=612x612&w=0&k=20&c=U5WAj-EUa2B8a5jqxwhYX5KSVo-5wxeKCD_EUonJrXM=)",
+            "image3": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt-dhKrfU06aG6sSfkE0E4NmRWjsOe1zYjmw&usqp=CAU)"
         },
         {
             "id": 26,
@@ -20,7 +22,9 @@ export const ccoountries = [
             "answer": "Slovenia Ljubljana",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4HB193Ffo49Wk0TsBd7luD4Dv2b2rDBaUFw&usqp=CAU)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh5a_vhK2mK3kz9i6gGkG9Pxl3X8QR69yi2w&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBGTgI_S65IUgDHKkon-uodVbFy5r8_fAdhA&usqp=CAU)",
+            "image3": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4HB193Ffo49Wk0TsBd7luD4Dv2b2rDBaUFw&usqp=CAU)"
         },
         {
             "id": 25,
@@ -31,7 +35,9 @@ export const ccoountries = [
             "answer": "Croatia Zagreb",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://static.vecteezy.com/system/resources/previews/008/211/439/non_2x/map-and-flag-of-croatia-vector.jpg)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQrdFRZ5HX3imVDcm59q3b6YV10gj8eybFYA&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnFYI2EkZbd0nratW9K5Bml9H5IS-YCZrnBQ&usqp=CAU)",
+            "image3": "url(https://static.vecteezy.com/system/resources/previews/008/211/439/non_2x/map-and-flag-of-croatia-vector.jpg)"
         },
         {
             "id": 24,
@@ -42,7 +48,9 @@ export const ccoountries = [
             "answer": "Malta Valletta",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5LwS6KG39AhBCZkdSoS684UoqQklreIn0HQ&usqp=CAU)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIELcrgL4nakO_7nNbDNr_WQHpr03-Y6mBUA&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmYgNuwGXDB5lzt1CugSDWpJrgno-1sRQjwQ&usqp=CAU)",
+            "image3": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5LwS6KG39AhBCZkdSoS684UoqQklreIn0HQ&usqp=CAU)"
         },
         {
             "id": 23,
@@ -53,7 +61,9 @@ export const ccoountries = [
             "answer": "Cyprus Nicosia",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7_PKSTCAP9jtW5JhL4AhsE_XgpPKOxeLTHg&usqp=CAU)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpL-bcgwXmmxb9REnfxgEhpNJwZrlbCQmcnw&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLqILDahRwRZVJDsXDty29I1vIfkPhbddrYg&usqp=CAU)",
+            "image3": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7_PKSTCAP9jtW5JhL4AhsE_XgpPKOxeLTHg&usqp=CAU)"
         },
         {
             "id": 22,
@@ -64,7 +74,9 @@ export const ccoountries = [
             "answer": "Bosnia and Herzegovina Sarajevo",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://static.vecteezy.com/system/resources/previews/007/886/183/non_2x/bosnia-and-herzegovina-map-flag-icon-set-vector.jpg)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSZCyq5OrJ_TEJ_2NatuvKOdmwe7AxdQ25yA&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUHibmTr9vW9DGO8NvbgZuLgXgUYdzuUrE6A&usqp=CAU)",
+            "image3": "url(https://static.vecteezy.com/system/resources/previews/007/886/183/non_2x/bosnia-and-herzegovina-map-flag-icon-set-vector.jpg)"
         },
         {
             "id": 21,
@@ -75,7 +87,9 @@ export const ccoountries = [
             "answer": "Montenegro Podgorica",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://i.pinimg.com/1200x/2e/6a/5f/2e6a5fc2cb702abda18c52d6d7d24cbe.jpg)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7zZhfzF1ZX2bVu0Z3maNHcNz6t_3schsN8g&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9f5oO6ygvI8pCzS_EPu3brwKMiWYnNVHb1w&usqp=CAU)",
+            "image3": "url(https://i.pinimg.com/1200x/2e/6a/5f/2e6a5fc2cb702abda18c52d6d7d24cbe.jpg)"
         },
         {
             "id": 20,
@@ -86,7 +100,9 @@ export const ccoountries = [
             "answer": "Albania Tirana",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCPAVYx5-gjwG_xO-ZNN4yayYOcClz1Ib_2Q&usqp=CAU)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Wu-SCxuM0iTTaQXrxZhbtq3F03zrwDm3OQ&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcA_DmX1M6pu7d_UCKvf6CEGMEZUkewLw8IA&usqp=CAU)",
+            "image3": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCPAVYx5-gjwG_xO-ZNN4yayYOcClz1Ib_2Q&usqp=CAU)"
         },
         {
             "id": 19,
@@ -97,7 +113,9 @@ export const ccoountries = [
             "answer": "North Macedonia Skopje",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR8f2bXB3n-5qk5ewD54nyF10rYxedyrVF-g&usqp=CAU)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqxigMgzmlXqwgKvG7mWHPrQFcgxs4swQMgg&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSASGJFJ4wxqLGaKRwQ3hJkM1EblBgxVgM7fg&usqp=CAU)",
+            "image3": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR8f2bXB3n-5qk5ewD54nyF10rYxedyrVF-g&usqp=CAU)"
         },
         {
             "id": 18,
@@ -108,7 +126,9 @@ export const ccoountries = [
             "answer": "Kosovo Pristina",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnUDdLgQeiKMXvmKT0-tPgGuqoX2TyoK1cCg&usqp=CAU)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl7yZjCGPDfZ2q8ZBuHKICPI1Y1BLEe8GZYQ&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcmF2vNuXt38Xbha8YwZ-LXuFRiuGnxDA_QA&usqp=CAU)",
+            "image3": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnUDdLgQeiKMXvmKT0-tPgGuqoX2TyoK1cCg&usqp=CAU)"
         },
         {
             "id": 17,
@@ -119,7 +139,9 @@ export const ccoountries = [
             "answer": "Bulgaria Sofia",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_map_of_Bulgaria.svg/797px-Flag_map_of_Bulgaria.svg.png?20110305070807)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz3zFxDXuPlVb0cR5AOCBsXzSunE-zyLZQng&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHKOKLuZmxR-kGSPVyOoCXk2IECskbvucwkQ&usqp=CAU)",
+            "image3": "url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_map_of_Bulgaria.svg/797px-Flag_map_of_Bulgaria.svg.png?20110305070807)"
         },
         {
             "id": 16,
@@ -130,7 +152,9 @@ export const ccoountries = [
             "answer": "Serbia Belgrade",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://i.etsystatic.com/6313557/r/il/047adf/2147820653/il_fullxfull.2147820653_9hpc.jpg)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxkgG75_KUqGxzMEMX5mcdJZwGhw_tslRyZw&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJH93KK85gweFK-rOSIvVb9VYKK-7ztgpcqw&usqp=CAU)",
+            "image3": "url(https://i.etsystatic.com/6313557/r/il/047adf/2147820653/il_fullxfull.2147820653_9hpc.jpg)"
         },
         {
             "id": 15,
@@ -141,7 +165,9 @@ export const ccoountries = [
             "answer": "Hungary Budapest",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfAftGpgk55GwBzAw0i_tWwsYi5fag7eqa1Q&usqp=CAU)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWyLMmPxRZWTsO1NQzRA0-Wtq0edAb5DIaCg&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIJ8CA8WWGamYPGnDNv4sw1pphbLN3uUQK8w&usqp=CAU)",
+            "image3": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfAftGpgk55GwBzAw0i_tWwsYi5fag7eqa1Q&usqp=CAU)"
         },
         {
             "id": 14,
@@ -152,7 +178,9 @@ export const ccoountries = [
             "answer": "Slovakia Bratislava",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://w7.pngwing.com/pngs/262/835/png-transparent-flag-of-slovakia-flag-miscellaneous-flag-map.png)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtXdTE3tyEEZ-KFtTnEvEfzOHB2KlUAKvItg&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHzGIH2Dnfq1etgJ0z17G410JRnw1O0psv8A&usqp=CAU)",
+            "image3": "url(https://w7.pngwing.com/pngs/262/835/png-transparent-flag-of-slovakia-flag-miscellaneous-flag-map.png)"
         },
         {
             "id": 13,
@@ -163,7 +191,9 @@ export const ccoountries = [
             "answer": "Poland Warsaw",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxWfOn012ioS2Pdgm-PKkKEJbZixKBPGzXow&usqp=CAU)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXbhxHF5JLyNz1ClmfrVjNsRbDeXb3xTrCMA&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbJt7opsRF6w8p1BotaMmpZTH9xFG3M9urw&usqp=CAU)",
+            "image3": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxWfOn012ioS2Pdgm-PKkKEJbZixKBPGzXow&usqp=CAU)"
         },
         {
             "id": 12,
@@ -174,7 +204,9 @@ export const ccoountries = [
             "answer": "Lithuania Vilnius",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Flag-map_of_Lithuania.svg/2560px-Flag-map_of_Lithuania.svg.png)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_u_ZZoqPZqtzR9biO5DiZ1zaBCuaEJofSIw&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhUh_H4UitqIexYE91C0DCqtaOOYeotGDzvQ&usqp=CAU)",
+            "image3": "url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Flag-map_of_Lithuania.svg/2560px-Flag-map_of_Lithuania.svg.png)"
         },
         {
             "id": 11,
@@ -185,7 +217,9 @@ export const ccoountries = [
             "answer": "Latvia Riga",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://cdn3.vectorstock.com/i/1000x1000/87/32/latvia-flag-and-map-vector-17048732.jpg)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEjol4T-GDR9EXUJxcTyW7rKhN32_Bck7HHg&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUTR-LPVQwk1-GMV6q88i98qe_q3htOGZLeQ&usqp=CAU)",
+            "image3": "url(https://cdn3.vectorstock.com/i/1000x1000/87/32/latvia-flag-and-map-vector-17048732.jpg)"
         },
         {
             "id": 10,
@@ -196,7 +230,9 @@ export const ccoountries = [
             "answer": "Estonia Tallinn",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9pxEWDGgP7MZlBnh7ilbhJ0RuM14BBxiwcw&usqp=CAU)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHk2vVYhGxT4K8knfwHdhgwLwFq_plDT2qCw&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0lqZadYG9NbKJYm1wM_8e1LCNiByXrlGzKA&usqp=CAU)",
+            "image3": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9pxEWDGgP7MZlBnh7ilbhJ0RuM14BBxiwcw&usqp=CAU)"
         },
         {
             "id": 9,
@@ -207,7 +243,9 @@ export const ccoountries = [
             "answer": "Norway Oslo",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://cdn4.vectorstock.com/i/1000x1000/20/13/map-and-flag-of-norway-vector-14612013.jpg)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_VPDGcS14BPhm8g4Smd6p72MCqf7WudDNUA&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM4C7DCej98n06sd_qaFq73P2ppQXUgOKzdA&usqp=CAU)",
+            "image3": "url(https://cdn4.vectorstock.com/i/1000x1000/20/13/map-and-flag-of-norway-vector-14612013.jpg)"
         },
         {
             "id": 8,
@@ -218,7 +256,9 @@ export const ccoountries = [
             "answer": "Sweden Stockholm",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCUWVkOuLEPxQoXYG8Ztt8ARPpVKATY1QyNg&usqp=CAU)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn69sytloozxRK7hYHOA1Hx4MpcJZJjezAeQ&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWz9cIuMbfBhTk9qh3Nhz_BuVuga9gA_iaRw&usqp=CAU)",
+            "image3": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCUWVkOuLEPxQoXYG8Ztt8ARPpVKATY1QyNg&usqp=CAU)"
         },
         {
             "id": 7,
@@ -229,7 +269,9 @@ export const ccoountries = [
             "answer": "Finland Helsinki",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1EhhLiFhc6IzeQrhFHI7JkL0FOJbt-YHoMQ&usqp=CAU)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxgrvF0HdWek4LFxUNtS-EoW1DfzoOCrdMzw&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs8_gQ3Frg3Zj9MxJNotY8G6M5v7vXfyRpPw&usqp=CAU)",
+            "image3": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1EhhLiFhc6IzeQrhFHI7JkL0FOJbt-YHoMQ&usqp=CAU)"
         },
         {
             "id": 6,
@@ -240,7 +282,9 @@ export const ccoountries = [
             "answer": "Greece Athens",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZOg_nWMAKWJZVeKoQxYUffFPQdRzuKawTbQ&usqp=CAU)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPQ5L9WV8tHBuXedwgi6Nl1Tcz4RzLLj8Oug&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPg7aEaSkmJaILmPPbiNjYUbtKvTPtcQLFnZyLKHyqHZAREMS077eMqG4GjQ39_4_sP8M&usqp=CAU)",
+            "image3": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZOg_nWMAKWJZVeKoQxYUffFPQdRzuKawTbQ&usqp=CAU)"
         },
         {
             "id": 5,
@@ -251,7 +295,9 @@ export const ccoountries = [
             "answer": "Russia Moscow",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThHjvSvSNiCIQq-G14UVtIVN-s7TIouxdHvQ&usqp=CAU)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSannCulQsuFEIltZGXktGddSsJU0k3FMkZTg&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5xXv1Kv_xd3Ek80L5fzsSR26vXrM_YQoMFA&usqp=CAU)",
+            "image3": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThHjvSvSNiCIQq-G14UVtIVN-s7TIouxdHvQ&usqp=CAU)"
         },
         {
             "id": 4,
@@ -262,7 +308,9 @@ export const ccoountries = [
             "answer": "United Kingdom London",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdBy_-d87T4yXMH-RMiu4PoBg6oHPuh_uRkg&usqp=CAU)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVouo3_3elCjMYO2NkMSFDsNllUNgd-8TmSg&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIFyyD_mDILJ9HQAYnbRrIwOmwrX4rVL2sHw&usqp=CAU)",
+            "image3": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdBy_-d87T4yXMH-RMiu4PoBg6oHPuh_uRkg&usqp=CAU)"
         },
         {
             "id": 3,
@@ -273,7 +321,9 @@ export const ccoountries = [
             "answer": "Ukraine Kyiv",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR214R-4CLNzEB3MbaetxsNCqD2lc3JSNqbQ&usqp=CAU)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyKiD3ZZKPe8jaKEFAjJELGBcyaFlDmprb8g&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIMwxdwrxvMeIqgE9YOQoDVqr_7ydKQfaLXA&usqp=CAU)",
+            "image3": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR214R-4CLNzEB3MbaetxsNCqD2lc3JSNqbQ&usqp=CAU)"
         },
         {
             "id": 2,
@@ -284,7 +334,9 @@ export const ccoountries = [
             "answer": "Romania Bucharest",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag-map_of_Romania.svg/2560px-Flag-map_of_Romania.svg.png)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAyQH-WwCyFGM4xH0cUSSDMl9GY-9ODT6WVA&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhQ_1SHrRT48HjnVHXUhXuW0zx1sFmQjSG8Q&usqp=CAU)",
+            "image3": "url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag-map_of_Romania.svg/2560px-Flag-map_of_Romania.svg.png)"
         },
         {
             "id": 1,
@@ -295,6 +347,8 @@ export const ccoountries = [
             "answer": "Moldova Chisinau",
             "ourAnswer": "",
             "fakeAnswer": "",
-            "image": "url(https://previews.123rf.com/images/niroworld/niroworld1211/niroworld121100023/16146321-shape-3d-of-moldova-map-with-flag-isolated-on-white-background.jpg)"
+            "image1": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8K8tpbvmzYvD8DojyqFkP7Mol4NUX0LIWxiRX8ufYm5GwI9CzBIYDyR8MzRKFVqcgai8&usqp=CAU)",
+            "image": "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbS0uZrOBba1zI0DHGxAW8JsW92AEJn9rwvw&usqp=CAU)",
+            "image3": "url(https://previews.123rf.com/images/niroworld/niroworld1211/niroworld121100023/16146321-shape-3d-of-moldova-map-with-flag-isolated-on-white-background.jpg)"
         }
 ]
