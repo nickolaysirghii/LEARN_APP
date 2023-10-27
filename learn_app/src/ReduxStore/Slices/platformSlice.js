@@ -114,12 +114,20 @@ export const platform = createSlice({
         setInputsData: ( state , action )=>{
          state.inputsData.unshift(action.payload)
          state.inputCount +=1
-        }
+        },
+        setRightElement: ( state , action )=>{
+          state.realArray.forEach((elem)=>{
+            if(elem.id === action.payload){
+               elem.ourAnswer = elem.answer
+            }
+          })
+        } 
+        
 
         
      },
     },
 
 );
-export const {setrrr,setInputsData,setSteps,setRA} = platform.actions;
+export const {setrrr,setInputsData,setSteps,setRA,setRightElement} = platform.actions;
 export default platform.reducer;
