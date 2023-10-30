@@ -3,6 +3,8 @@ import "./fifthRaw.css";
 import ForthRaw from '../ForthRaw/ForthRaw';
 import Inputs from "../Inputs/Inputs"
 import { useSelector  } from 'react-redux';
+import NewPlatform from '../../NewPlatform/NewPlatform';
+
 
 const FifthRaw = ({title,data}) => {
   
@@ -21,18 +23,11 @@ const FifthRaw = ({title,data}) => {
   return (
     <div className='fifthRawContainer'> 
      <input className='insertAnswer' type='text' placeholder='hallo' />
-     <div className='belawContainer3'>
-     <div className='fifthImage'>
-         <div className='ShowImage' style={{backgroundImage:`${picture}`}}></div>
-      </div>
-     <div className='fifthImage'>
-     <ForthRaw />
-     </div>
-     <div className='fifthImage'>
-        <Inputs title={title}data={data} />
-     </div>
+     <NewPlatform picture={picture} title={title} data={data}/>
 
-     </div>
+     
+    
+     
     </div>
   )
 }

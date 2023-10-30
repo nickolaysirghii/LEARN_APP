@@ -1,15 +1,17 @@
 .forthRawContainer{
     width: 100%;
-    height: 380px;
+    height: 100%;
     border: 1px solid black;
     overflow: scroll;
-    background-color: rgb(183, 192, 198);
+    background-color: black;
+    opacity: 0.85;
 }
 .innerOverflow{
     width: 2000px;
     padding-left: 10px;
   position: relative;
   margin-bottom: 10px;
+  color: white;
 }
 .TheAnswer{
 position: absolute;
@@ -32,7 +34,7 @@ color: green;
 text-decoration: none;
 }
 .hiddenAnswer{
-  color: rgb(183, 192, 198);
+  color:transparent;
 }
 .rightButton{
   height: 50px;

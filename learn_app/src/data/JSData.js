@@ -1,6 +1,149 @@
 export const JavaScript = [
     
     {
+            "id": 29,
+            "addingId": 11,
+            "dataToday": "Mon Oct 30 2023 14:51:19",
+            "title": "JS",
+            "question": "Как мы создаем экземпляр приложения  в \"nodeJs\" ?",
+            "answer": "const app = express();",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 28,
+            "addingId": 11,
+            "dataToday": "Mon Oct 30 2023 14:47:53",
+            "title": "JS",
+            "question": "Что нужно прописать в \"package.json\" для того чтобы работала новая версия импорта ?",
+            "answer": "\"type\": \"module\"",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 27,
+            "addingId": 11,
+            "dataToday": "Mon Oct 30 2023 14:41:41",
+            "title": "JS",
+            "question": "Как мы импортируем фреймворк \"express\" новая версия импорта  ?",
+            "answer": "import express from 'express';",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 26,
+            "addingId": 11,
+            "dataToday": "Mon Oct 30 2023 14:38:59",
+            "title": "JS",
+            "question": "Как мы импортируем фреймворк \"express\" ?",
+            "answer": "const express = require('express');",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 25,
+            "addingId": 10,
+            "dataToday": "Mon Oct 30 2023 14:18:46",
+            "title": "JS",
+            "question": "Как установить \"nodemon\"  локально ?",
+            "answer": "npm i -D nodemon",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 24,
+            "addingId": 10,
+            "dataToday": "Mon Oct 30 2023 14:16:29",
+            "title": "JS",
+            "question": "Что такое \"nodemon\" ?",
+            "answer": "Это специальная библиотека которая позволяет запускать приложения , и не остонавливат пока вы принудительно его не остоновите. ",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 23,
+            "addingId": 10,
+            "dataToday": "Mon Oct 30 2023 14:04:21",
+            "title": "JS",
+            "question": "Как мы запускаем \"nodeJs \" файл в консоле ?",
+            "answer": "node name.js",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 22,
+            "addingId": 10,
+            "dataToday": "Mon Oct 30 2023 13:55:50",
+            "title": "JS",
+            "question": "Как мы устанавливаем \"expressJs \" ?",
+            "answer": "npm i express",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 21,
+            "addingId": 9,
+            "dataToday": "Mon Oct 30 2023 13:53:39",
+            "title": "JS",
+            "question": "Как мы производим инициализацию проекта в \"nodeJs \"?",
+            "answer": "npm init -y",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 20,
+            "addingId": 9,
+            "dataToday": "Mon Oct 30 2023 13:47:40",
+            "title": "JS",
+            "question": "Что нельзя использовать в \"node Js \" из \"JavaScript \" ?",
+            "answer": "DOM",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 19,
+            "addingId": 9,
+            "dataToday": "Mon Oct 30 2023 13:43:21",
+            "title": "JS",
+            "question": "Как мы проверяем установлен ли у нас \"nodeJs \"?",
+            "answer": "node -v",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 18,
+            "addingId": 9,
+            "dataToday": "Mon Oct 30 2023 13:40:42",
+            "title": "JS",
+            "question": "Для чего нужен node-Js ?",
+            "answer": "для создания серверных приложений на языке Яваскрипт.",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 17,
+            "addingId": 9,
+            "dataToday": "Mon Oct 30 2023 13:36:16",
+            "title": "JS",
+            "question": "Что такое узел-Js?",
+            "answer": "это среда выполнения кода на JavaScript .",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
             "id": 16,
             "addingId": 8,
             "dataToday": "Sun Oct 01 2023 03:10:43",

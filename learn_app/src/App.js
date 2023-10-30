@@ -4,7 +4,7 @@ import Header from './components/1Header/Header';
 import { useDispatch , useSelector } from 'react-redux';
 import {setRA} from './ReduxStore/Slices/platformSlice';
 import Plaform from "./components/Platform/Platform";
-import ExemUseMemo from './components/useMemoEx/ExemUseMemo';
+import NewPlatform from './components/NewPlatform/NewPlatform';
 
 
 function App() {
@@ -70,25 +70,12 @@ const { VA1,realArray,stepNow,questionNow} = useSelector((state)=>state.platSlic
       }
   }
 
-
-//   console.log(`window.screen.width - ${window.screen.width}`);
-//   console.log(`window.screen.height - ${window.screen.height}`);
-//  console.log(`window.screen.availWidth - ${window.screen.availWidth}`);
-//  console.log(`window.screen.availHeight - ${window.screen.availHeight}`);
-//  console.log(`window.outerWidth - ${window.outerWidth}`);
-//  console.log(`window.outerHeight - ${window.outerHeight}`);
-//  console.log(`window.innerWidth - ${window.innerWidth}`);
-//  console.log(`window.innerHeight - ${window.innerHeight}`);
-//  console.log(`document.documentElement.clientWidth - ${document.documentElement.clientWidth}`);
-//  console.log(`document.documentElement.clientHeight - ${document.documentElement.clientHeight}`);
-//  console.log(`document.documentElement.scrollWidth - ${document.documentElement.scrollWidth}`);
-//  console.log(`document.documentElement.scrollHeight - ${document.documentElement.scrollHeight}`);
   
   return (
     <div onKeyUp={keyIndex} className="App">
       
       <Header />
-      <Plaform/>
+      <Plaform />
 
       
      
