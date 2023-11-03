@@ -1,6 +1,226 @@
 
 export const english = [
     {
+        "id": 227,
+        "addingId": 49,
+        "dataToday": "Sun Oct 29 2023 10:29:14",
+        "title": "English",
+        "question": "это благородный крестовый поход",
+        "answer": "it's a noble crusade",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 226,
+        "addingId": 49,
+        "dataToday": "Sun Oct 29 2023 10:27:02",
+        "title": "English",
+        "question": "безупречный пошив",
+        "answer": "impeccable tailoring",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 225,
+        "addingId": 49,
+        "dataToday": "Sun Oct 29 2023 10:25:54",
+        "title": "English",
+        "question": "дела о смертной казни",
+        "answer": "capital cases",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 224,
+        "addingId": 49,
+        "dataToday": "Sun Oct 29 2023 10:23:59",
+        "title": "English",
+        "question": "это один из вариантов",
+        "answer": "that's one option",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 223,
+        "addingId": 49,
+        "dataToday": "Sun Oct 29 2023 10:23:09",
+        "title": "English",
+        "question": "шансов оправдать Барра не так уж и много",
+        "answer": "it is no much chance of clearing Barr",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 222,
+        "addingId": 48,
+        "dataToday": "Sun Oct 29 2023 10:21:07",
+        "title": "English",
+        "question": "это началось как упражнение и превратилось в зависимость",
+        "answer": "it started out as an exercise and became an addiction",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 221,
+        "addingId": 48,
+        "dataToday": "Sun Oct 29 2023 10:18:33",
+        "title": "English",
+        "question": "свидетель защиты",
+        "answer": "defense witness",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 220,
+        "addingId": 48,
+        "dataToday": "Sun Oct 29 2023 10:14:33",
+        "title": "English",
+        "question": "Я скажу тебе после дачи показаний",
+        "answer": "I'll tell you after deposition",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 219,
+        "addingId": 48,
+        "dataToday": "Sun Oct 29 2023 10:09:18",
+        "title": "English",
+        "question": "доказательство",
+        "answer": "evidence",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 218,
+        "addingId": 48,
+        "dataToday": "Sun Oct 29 2023 10:07:59",
+        "title": "English",
+        "question": "мы не можем отменить это",
+        "answer": "we can't undo it",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 217,
+        "addingId": 47,
+        "dataToday": "Sun Oct 29 2023 10:07:05",
+        "title": "English",
+        "question": "подхалим",
+        "answer": "flunky",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 216,
+        "addingId": 47,
+        "dataToday": "Sun Oct 29 2023 10:05:10",
+        "title": "English",
+        "question": "это была оплошность",
+        "answer": "that was an oversight",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 215,
+        "addingId": 47,
+        "dataToday": "Sun Oct 29 2023 10:03:47",
+        "title": "English",
+        "question": "защитная опека",
+        "answer": "protective custody",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 214,
+        "addingId": 47,
+        "dataToday": "Sun Oct 29 2023 10:00:52",
+        "title": "English",
+        "question": "где без федерального ордера",
+        "answer": "where without a federal warrant",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 213,
+        "addingId": 47,
+        "dataToday": "Sun Oct 29 2023 09:55:55",
+        "title": "English",
+        "question": "собрался",
+        "answer": "mustered out",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 212,
+        "addingId": 46,
+        "dataToday": "Sun Oct 29 2023 09:53:23",
+        "title": "English",
+        "question": "понижен в звании до капитана",
+        "answer": "demoted to captain",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 211,
+        "addingId": 46,
+        "dataToday": "Sun Oct 29 2023 09:52:08",
+        "title": "English",
+        "question": "по общим отзывам",
+        "answer": "by all accounts",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 210,
+        "addingId": 46,
+        "dataToday": "Sun Oct 29 2023 09:50:55",
+        "title": "English",
+        "question": "большая часть",
+        "answer": "the bulk of",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 209,
+        "addingId": 46,
+        "dataToday": "Sun Oct 29 2023 09:48:33",
+        "title": "English",
+        "question": "Служил с отличием",
+        "answer": "served with distinction",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 208,
+        "addingId": 46,
+        "dataToday": "Sun Oct 29 2023 09:47:22",
+        "title": "English",
+        "question": "он уходит навсегда",
+        "answer": "he ships out for good",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
         "id": 207,
         "addingId": 45,
         "dataToday": "Sun Oct 29 2023 09:46:16",
@@ -94,7 +314,7 @@ export const english = [
         "dataToday": "Sun Oct 29 2023 09:30:42",
         "title": "English",
         "question": "тогда как",
-        "answer": "wheras",
+        "answer": "whereas",
         "ourAnswer": "",
         "fakeAnswer": "",
         "image": "url()"
@@ -2587,226 +2807,10 @@ const Detective = [
         "fakeAnswer": "",
         "image": "url()"
     },
-    {
-        "id": 227,
-        "addingId": 49,
-        "dataToday": "Sun Oct 29 2023 10:29:14",
-        "title": "English",
-        "question": "это благородный крестовый поход",
-        "answer": "it's a noble crusade",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 226,
-        "addingId": 49,
-        "dataToday": "Sun Oct 29 2023 10:27:02",
-        "title": "English",
-        "question": "безупречный пошив",
-        "answer": "impeccable tailoring",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 225,
-        "addingId": 49,
-        "dataToday": "Sun Oct 29 2023 10:25:54",
-        "title": "English",
-        "question": "дела о смертной казни",
-        "answer": "capital cases",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 224,
-        "addingId": 49,
-        "dataToday": "Sun Oct 29 2023 10:23:59",
-        "title": "English",
-        "question": "это один из вариантов",
-        "answer": "that's one option",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 223,
-        "addingId": 49,
-        "dataToday": "Sun Oct 29 2023 10:23:09",
-        "title": "English",
-        "question": "шансов оправдать Барра не так уж и много",
-        "answer": "it is no much chance of clearing Barr",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 222,
-        "addingId": 48,
-        "dataToday": "Sun Oct 29 2023 10:21:07",
-        "title": "English",
-        "question": "это началось как упражнение и превратилось в зависимость",
-        "answer": "it started out as an exercise and became an addiction",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 221,
-        "addingId": 48,
-        "dataToday": "Sun Oct 29 2023 10:18:33",
-        "title": "English",
-        "question": "свидетель защиты",
-        "answer": "defense witness",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 220,
-        "addingId": 48,
-        "dataToday": "Sun Oct 29 2023 10:14:33",
-        "title": "English",
-        "question": "Я скажу тебе после дачи показаний",
-        "answer": "I'll tell you after deposition",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 219,
-        "addingId": 48,
-        "dataToday": "Sun Oct 29 2023 10:09:18",
-        "title": "English",
-        "question": "доказательство",
-        "answer": "evidence",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 218,
-        "addingId": 48,
-        "dataToday": "Sun Oct 29 2023 10:07:59",
-        "title": "English",
-        "question": "мы не можем отменить это",
-        "answer": "we can't undo it",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 217,
-        "addingId": 47,
-        "dataToday": "Sun Oct 29 2023 10:07:05",
-        "title": "English",
-        "question": "подхалим",
-        "answer": "flunky",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 216,
-        "addingId": 47,
-        "dataToday": "Sun Oct 29 2023 10:05:10",
-        "title": "English",
-        "question": "это была оплошность",
-        "answer": "that was an oversight",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 215,
-        "addingId": 47,
-        "dataToday": "Sun Oct 29 2023 10:03:47",
-        "title": "English",
-        "question": "защитная опека",
-        "answer": "protective custody",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 214,
-        "addingId": 47,
-        "dataToday": "Sun Oct 29 2023 10:00:52",
-        "title": "English",
-        "question": "где без федерального ордера",
-        "answer": "where without a federal warrant",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 213,
-        "addingId": 47,
-        "dataToday": "Sun Oct 29 2023 09:55:55",
-        "title": "English",
-        "question": "собрался",
-        "answer": "mustered out",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 212,
-        "addingId": 46,
-        "dataToday": "Sun Oct 29 2023 09:53:23",
-        "title": "English",
-        "question": "понижен в звании до капитана",
-        "answer": "demoted to captain",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 211,
-        "addingId": 46,
-        "dataToday": "Sun Oct 29 2023 09:52:08",
-        "title": "English",
-        "question": "по общим отзывам",
-        "answer": "by all accounts",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 210,
-        "addingId": 46,
-        "dataToday": "Sun Oct 29 2023 09:50:55",
-        "title": "English",
-        "question": "большая часть",
-        "answer": "the bulk of",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 209,
-        "addingId": 46,
-        "dataToday": "Sun Oct 29 2023 09:48:33",
-        "title": "English",
-        "question": "Служил с отличием",
-        "answer": "Served with distinction",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 208,
-        "addingId": 46,
-        "dataToday": "Sun Oct 29 2023 09:47:22",
-        "title": "English",
-        "question": "он уходит навсегда",
-        "answer": "he ships out for good",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
+    
+    
+   
+    
     
     
 ]

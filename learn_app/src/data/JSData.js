@@ -1,6 +1,61 @@
 export const JavaScript = [
     
     {
+            "id": 34,
+            "addingId": 12,
+            "dataToday": "Wed Nov 01 2023 22:08:02",
+            "title": "JS",
+            "question": "Как мы регистрируем \"Middleware\" для пост запросов ?",
+            "answer": "app.use(express.json());",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 33,
+            "addingId": 12,
+            "dataToday": "Wed Nov 01 2023 22:03:19",
+            "title": "JS",
+            "question": "Что такое \"Middleware\"?",
+            "answer": "Это Функция которая выполняется между двумя основными функциями .",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 32,
+            "addingId": 12,
+            "dataToday": "Wed Nov 01 2023 21:05:47",
+            "title": "JS",
+            "question": "Что такое \"Postman\"?",
+            "answer": "Это приложение которое позволяет тестировать сервер .",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 31,
+            "addingId": 12,
+            "dataToday": "Wed Nov 01 2023 20:48:19",
+            "title": "JS",
+            "question": "Как удалить зависимости ?",
+            "answer": "npm uninstall name",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 30,
+            "addingId": 12,
+            "dataToday": "Wed Nov 01 2023 20:40:06",
+            "title": "JS",
+            "question": "Как мы прослушиваем наше приложение ?",
+            "answer": "app.listen(port,()=>console.log());",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
             "id": 29,
             "addingId": 11,
             "dataToday": "Mon Oct 30 2023 14:51:19",
@@ -137,7 +192,7 @@ export const JavaScript = [
             "addingId": 9,
             "dataToday": "Mon Oct 30 2023 13:36:16",
             "title": "JS",
-            "question": "Что такое узел-Js?",
+            "question": "Что такое node-Js?",
             "answer": "это среда выполнения кода на JavaScript .",
             "ourAnswer": "",
             "fakeAnswer": "",
