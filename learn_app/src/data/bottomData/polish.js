@@ -1,6 +1,116 @@
 export const polishLanguage = [
     
     {
+            "id": 247,
+            "addingId": 8,
+            "dataToday": "Sun Nov 05 2023 07:48:03",
+            "title": "Polish",
+            "question": "десять",
+            "answer": "dziesięć",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 246,
+            "addingId": 8,
+            "dataToday": "Sun Nov 05 2023 07:47:10",
+            "title": "Polish",
+            "question": "девять",
+            "answer": "dziewięć",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 245,
+            "addingId": 8,
+            "dataToday": "Sun Nov 05 2023 07:46:38",
+            "title": "Polish",
+            "question": "восемь",
+            "answer": "osiem",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 244,
+            "addingId": 8,
+            "dataToday": "Sun Nov 05 2023 07:46:14",
+            "title": "Polish",
+            "question": "семь",
+            "answer": "siedem",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 243,
+            "addingId": 8,
+            "dataToday": "Sun Nov 05 2023 07:45:34",
+            "title": "Polish",
+            "question": "шесть",
+            "answer": "sześć",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 242,
+            "addingId": 8,
+            "dataToday": "Sun Nov 05 2023 07:45:05",
+            "title": "Polish",
+            "question": "пять",
+            "answer": "pięć",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 241,
+            "addingId": 8,
+            "dataToday": "Sun Nov 05 2023 07:44:24",
+            "title": "Polish",
+            "question": "четыре",
+            "answer": "cztery",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 240,
+            "addingId": 8,
+            "dataToday": "Sun Nov 05 2023 07:43:37",
+            "title": "Polish",
+            "question": "три",
+            "answer": "trzy",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 239,
+            "addingId": 8,
+            "dataToday": "Sun Nov 05 2023 07:43:12",
+            "title": "Polish",
+            "question": "два",
+            "answer": "dwa",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 238,
+            "addingId": 8,
+            "dataToday": "Sun Nov 05 2023 07:42:47",
+            "title": "Polish",
+            "question": "один",
+            "answer": "jeden",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
             "id": 10,
             "addingId": 7,
             "dataToday": "Thu Oct 05 2023 14:52:13",
