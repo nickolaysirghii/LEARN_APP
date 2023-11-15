@@ -1,6 +1,754 @@
 
 export const english = [
     {
+        "id": 365,
+        "addingId": 77,
+        "dataToday": "Sat Nov 11 2023 16:37:28",
+        "title": "English",
+        "question": "общественное потребление",
+        "answer": "public consumption",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 364,
+        "addingId": 77,
+        "dataToday": "Sat Nov 11 2023 16:36:25",
+        "title": "English",
+        "question": "шлепнуть по запястью",
+        "answer": "slap on the wrist",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 363,
+        "addingId": 77,
+        "dataToday": "Sat Nov 11 2023 16:35:02",
+        "title": "English",
+        "question": "решающий",
+        "answer": "pivotal",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 362,
+        "addingId": 77,
+        "dataToday": "Sat Nov 11 2023 16:34:04",
+        "title": "English",
+        "question": "был отправлен на скамейку запасных",
+        "answer": "has been benched",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 361,
+        "addingId": 77,
+        "dataToday": "Sat Nov 11 2023 16:30:35",
+        "title": "English",
+        "question": "был забанен со стороны большой 10",
+        "answer": "has been banned from the sidelines by the big 10",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 360,
+        "addingId": 76,
+        "dataToday": "Sat Nov 11 2023 16:28:10",
+        "title": "English",
+        "question": "один из самых авторитетных и высокооплачиваемых тренеров",
+        "answer": "one of the highest profile and highest pay coach",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 359,
+        "addingId": 76,
+        "dataToday": "Sat Nov 11 2023 16:25:12",
+        "title": "English",
+        "question": "они сговорились",
+        "answer": "they conspired",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 358,
+        "addingId": 76,
+        "dataToday": "Sat Nov 11 2023 16:23:23",
+        "title": "English",
+        "question": "совершил набег",
+        "answer": "raided",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 357,
+        "addingId": 76,
+        "dataToday": "Sat Nov 11 2023 16:22:28",
+        "title": "English",
+        "question": "наложение ареста",
+        "answer": "seizure",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 356,
+        "addingId": 76,
+        "dataToday": "Sat Nov 11 2023 16:21:06",
+        "title": "English",
+        "question": "сбор средств",
+        "answer": "fundraising",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+            "id": 355,
+            "addingId": 75,
+            "dataToday": "Sun Nov 05 2023 08:50:55",
+            "title": "English",
+            "question": "ggg трясти",
+            "answer": "shake shook shaken",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 354,
+            "addingId": 75,
+            "dataToday": "Sun Nov 05 2023 08:50:26",
+            "title": "English",
+            "question": "ggg устанавливать",
+            "answer": "set",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 353,
+            "addingId": 75,
+            "dataToday": "Sun Nov 05 2023 08:50:10",
+            "title": "English",
+            "question": "ggg посылать",
+            "answer": "send sent",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 352,
+            "addingId": 75,
+            "dataToday": "Sun Nov 05 2023 08:49:44",
+            "title": "English",
+            "question": "ggg продавать",
+            "answer": "sell sold",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 351,
+            "addingId": 75,
+            "dataToday": "Sun Nov 05 2023 08:49:20",
+            "title": "English",
+            "question": "ggg искать",
+            "answer": "seek sought",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+    {
+        "id": 350,
+        "addingId": 74,
+        "dataToday": "Sat Nov 11 2023 16:19:26",
+        "title": "English",
+        "question": "у Красного Креста",
+        "answer": "by the red cross",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 349,
+        "addingId": 74,
+        "dataToday": "Sat Nov 11 2023 16:17:57",
+        "title": "English",
+        "question": "осуждение",
+        "answer": "condemnation",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 348,
+        "addingId": 74,
+        "dataToday": "Sat Nov 11 2023 16:16:37",
+        "title": "English",
+        "question": "даже эвакуационный коридор не пощадили",
+        "answer": "even the evacuation corridor is not spared",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 347,
+        "addingId": 74,
+        "dataToday": "Sat Nov 11 2023 16:14:06",
+        "title": "English",
+        "question": "бежать сломя голову",
+        "answer": "to run headlong",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 346,
+        "addingId": 74,
+        "dataToday": "Sat Nov 11 2023 16:13:15",
+        "title": "English",
+        "question": "измученный войной ",
+        "answer": "worn down by war",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+            "id": 345,
+            "addingId": 73,
+            "dataToday": "Sun Nov 05 2023 08:53:22",
+            "title": "English",
+            "question": "ggg \tзакрывать, затворять",
+            "answer": "shut",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 344,
+            "addingId": 73,
+            "dataToday": "Sun Nov 05 2023 08:53:02",
+            "title": "English",
+            "question": "ggg сжиматься",
+            "answer": "shrink shrank shrunk",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 343,
+            "addingId": 73,
+            "dataToday": "Sun Nov 05 2023 08:52:28",
+            "title": "English",
+            "question": "ggg показывать",
+            "answer": "show showed shown",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 342,
+            "addingId": 73,
+            "dataToday": "Sun Nov 05 2023 08:51:56",
+            "title": "English",
+            "question": "ggg стрелять",
+            "answer": "shoot shot",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 341,
+            "addingId": 73,
+            "dataToday": "Sun Nov 05 2023 08:51:32",
+            "title": "English",
+            "question": "ggg светить, сиять",
+            "answer": "shine shone",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+    {
+        "id": 340,
+        "addingId": 72,
+        "dataToday": "Sat Nov 11 2023 16:11:05",
+        "title": "English",
+        "question": "шатаясь в ошеломленном недоверии",
+        "answer": "reeling in stunned disbelief",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 339,
+        "addingId": 72,
+        "dataToday": "Sat Nov 11 2023 16:04:36",
+        "title": "English",
+        "question": "был грубым",
+        "answer": "was blunt",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 338,
+        "addingId": 72,
+        "dataToday": "Sat Nov 11 2023 16:03:43",
+        "title": "English",
+        "question": "рост числа жертв среди мирного населения",
+        "answer": "soaring number of civilians casualties",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 336,
+        "addingId": 72,
+        "dataToday": "Sat Nov 11 2023 16:00:08",
+        "title": "English",
+        "question": "растущее глобальное давление",
+        "answer": "mounting global pressure",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 335,
+        "addingId": 71,
+        "dataToday": "Sun Nov 05 2023 08:55:59",
+        "title": "English",
+        "question": "ggg \tпахнуть, нюхать",
+        "answer": "smell smelt",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 334,
+        "addingId": 71,
+        "dataToday": "Sun Nov 05 2023 08:55:28",
+        "title": "English",
+        "question": "ggg скользить",
+        "answer": "slide slid",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 333,
+        "addingId": 71,
+        "dataToday": "Sun Nov 05 2023 08:54:53",
+        "title": "English",
+        "question": "ggg спать",
+        "answer": "sleep slept",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 332,
+        "addingId": 71,
+        "dataToday": "Sun Nov 05 2023 08:54:27",
+        "title": "English",
+        "question": "ggg сидеть",
+        "answer": "sit sat",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 331,
+        "addingId": 71,
+        "dataToday": "Sun Nov 05 2023 08:53:50",
+        "title": "English",
+        "question": "ggg петь",
+        "answer": "sing sang sung",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 330,
+        "addingId": 70,
+        "dataToday": "Sat Nov 11 2023 15:58:01",
+        "title": "English",
+        "question": "чтить наследие павшего",
+        "answer": "honoring the legacy of a fallen",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 329,
+        "addingId": 70,
+        "dataToday": "Sat Nov 11 2023 15:54:52",
+        "title": "English",
+        "question": "наполнен деньгами",
+        "answer": "is filled with money",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 328,
+        "addingId": 70,
+        "dataToday": "Sat Nov 11 2023 15:51:09",
+        "title": "English",
+        "question": "отобрать у него электронику, включая мобильный телефон",
+        "answer": "seizing his electronics including his cellphone",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 327,
+        "addingId": 70,
+        "dataToday": "Sat Nov 11 2023 15:45:49",
+        "title": "English",
+        "question": "слишком много",
+        "answer": "far too many",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 326,
+        "addingId": 70,
+        "dataToday": "Sat Nov 11 2023 15:36:10",
+        "title": "English",
+        "question": "был почти единогласно готов оставить его в силе.",
+        "answer": "was almost unanimously poised to keep it in place",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 325,
+        "addingId": 69,
+        "dataToday": "Sat Nov 11 2023 15:32:49",
+        "title": "English",
+        "question": "что побудило его обменяться мнениями с главным судьей",
+        "answer": "prompting his exchange with chief justice",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 324,
+        "addingId": 69,
+        "dataToday": "Sat Nov 11 2023 15:30:35",
+        "title": "English",
+        "question": "несколько других предполагаемых инцидентов со стрельбой",
+        "answer": "several other alleged shooting incidents",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 323,
+        "addingId": 69,
+        "dataToday": "Sat Nov 11 2023 15:29:03",
+        "title": "English",
+        "question": "был признан виновным в нарушении закона",
+        "answer": "was convicted of violating the law",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 322,
+        "addingId": 69,
+        "dataToday": "Sat Nov 11 2023 15:22:23",
+        "title": "English",
+        "question": "дело, которое сегодня рассматривается в Верховном суде",
+        "answer": "case that is argued at the supreme court today",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 321,
+        "addingId": 69,
+        "dataToday": "Sat Nov 11 2023 15:21:00",
+        "title": "English",
+        "question": "подвергнуть безопасность серьезному риску",
+        "answer": "to put the safety at serious risk",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 320,
+        "addingId": 68,
+        "dataToday": "Sun Nov 05 2023 08:59:01",
+        "title": "English",
+        "question": "ggg крутить",
+        "answer": "spin spun",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 319,
+        "addingId": 68,
+        "dataToday": "Sun Nov 05 2023 08:58:35",
+        "title": "English",
+        "question": "ggg разлить",
+        "answer": "spill spilt",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 318,
+        "addingId": 68,
+        "dataToday": "Sun Nov 05 2023 08:57:41",
+        "title": "English",
+        "question": "ggg тратить, проводить время",
+        "answer": "spend spent",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 317,
+        "addingId": 68,
+        "dataToday": "Sun Nov 05 2023 08:57:10",
+        "title": "English",
+        "question": "ggg произносить или писать по буквам",
+        "answer": "spell spelt",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 316,
+        "addingId": 68,
+        "dataToday": "Sun Nov 05 2023 08:56:27",
+        "title": "English",
+        "question": "ggg говорить",
+        "answer": "speak spoke spoken",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 315,
+        "addingId": 67,
+        "dataToday": "Wed Nov 08 2023 09:24:36",
+        "title": "English",
+        "question": "запретить",
+        "answer": "to ban",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 314,
+        "addingId": 67,
+        "dataToday": "Wed Nov 08 2023 09:23:03",
+        "title": "English",
+        "question": "суд постановил",
+        "answer": "the court ruled",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 313,
+        "addingId": 67,
+        "dataToday": "Wed Nov 08 2023 09:21:44",
+        "title": "English",
+        "question": "готовый уравновешенный",
+        "answer": "poised",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 312,
+        "addingId": 67,
+        "dataToday": "Wed Nov 08 2023 09:20:54",
+        "title": "English",
+        "question": "единогласно",
+        "answer": "unanimously",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+            "id": 311,
+            "addingId": 66,
+            "dataToday": "Sun Nov 05 2023 09:01:37",
+            "title": "English",
+            "question": "ggg воровать",
+            "answer": "steal stole stolen",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 310,
+            "addingId": 66,
+            "dataToday": "Sun Nov 05 2023 09:01:15",
+            "title": "English",
+            "question": "ggg стоять",
+            "answer": "stand stood",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 309,
+            "addingId": 66,
+            "dataToday": "Sun Nov 05 2023 09:00:42",
+            "title": "English",
+            "question": "ggg разворачивать, распространять",
+            "answer": "spread",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 308,
+            "addingId": 66,
+            "dataToday": "Sun Nov 05 2023 09:00:16",
+            "title": "English",
+            "question": "ggg портить",
+            "answer": "spoil spoilt",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 307,
+            "addingId": 66,
+            "dataToday": "Sun Nov 05 2023 08:59:35",
+            "title": "English",
+            "question": "ggg разделять, раскалывать",
+            "answer": "split",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+    {
+        "id": 306,
+        "addingId": 65,
+        "dataToday": "Wed Nov 08 2023 09:18:57",
+        "title": "English",
+        "question": "широкий спектр",
+        "answer": "wide-ranging",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 305,
+        "addingId": 65,
+        "dataToday": "Wed Nov 08 2023 09:17:27",
+        "title": "English",
+        "question": "главный судья",
+        "answer": "chief justice",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 304,
+        "addingId": 65,
+        "dataToday": "Wed Nov 08 2023 09:16:14",
+        "title": "English",
+        "question": "побуждение",
+        "answer": "prompting",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 303,
+        "addingId": 65,
+        "dataToday": "Wed Nov 08 2023 09:15:01",
+        "title": "English",
+        "question": "право хранить и носить оружие",
+        "answer": "right to keep and bear arms",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+        "id": 302,
+        "addingId": 65,
+        "dataToday": "Wed Nov 08 2023 09:14:03",
+        "title": "English",
+        "question": "вторая поправка",
+        "answer": "second amendment",
+        "ourAnswer": "",
+        "fakeAnswer": "",
+        "image": "url()"
+    },
+    {
+            "id": 301,
+            "addingId": 64,
+            "dataToday": "Sun Nov 05 2023 09:04:22",
+            "title": "English",
+            "question": "ggg подметать",
+            "answer": "sweep swept",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 300,
+            "addingId": 64,
+            "dataToday": "Sun Nov 05 2023 09:03:49",
+            "title": "English",
+            "question": "ggg клясться, ругаться",
+            "answer": "swear swore sworn",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 299,
+            "addingId": 64,
+            "dataToday": "Sun Nov 05 2023 09:03:12",
+            "title": "English",
+            "question": "ggg бастовать, ударять",
+            "answer": "strike struck",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 298,
+            "addingId": 64,
+            "dataToday": "Sun Nov 05 2023 09:02:31",
+            "title": "English",
+            "question": "ggg вонять",
+            "answer": "stink stank stunk",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+        {
+            "id": 297,
+            "addingId": 64,
+            "dataToday": "Sun Nov 05 2023 09:02:00",
+            "title": "English",
+            "question": "ggg жалить",
+            "answer": "sting stung",
+            "ourAnswer": "",
+            "fakeAnswer": "",
+            "image": "url()"
+        },
+    {
         "id": 296,
         "addingId": 63,
         "dataToday": "Sun Nov 05 2023 09:07:01",
@@ -73,17 +821,6 @@ export const english = [
         "title": "English",
         "question": "нападение",
         "answer": "assaulting",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 289,
-        "addingId": 62,
-        "dataToday": "Wed Nov 08 2023 09:08:34",
-        "title": "English",
-        "question": "отстаивать",
-        "answer": "to uphold",
         "ourAnswer": "",
         "fakeAnswer": "",
         "image": "url()"
@@ -3257,336 +3994,12 @@ const Glagoly = [
        
         
         
-        {
-            "id": 327,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 09:04:22",
-            "title": "English",
-            "question": "ggg подметать",
-            "answer": "sweep swept",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 326,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 09:03:49",
-            "title": "English",
-            "question": "ggg клясться, ругаться",
-            "answer": "swear swore sworn",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 325,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 09:03:12",
-            "title": "English",
-            "question": "ggg бастовать, ударять",
-            "answer": "strike struck",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 324,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 09:02:31",
-            "title": "English",
-            "question": "ggg вонять",
-            "answer": "stink stank stunk",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 323,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 09:02:00",
-            "title": "English",
-            "question": "ggg жалить",
-            "answer": "sting stung",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 322,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 09:01:37",
-            "title": "English",
-            "question": "ggg steal",
-            "answer": "stole stolen",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 321,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 09:01:15",
-            "title": "English",
-            "question": "ggg стоять",
-            "answer": "stand stood",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 320,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 09:00:42",
-            "title": "English",
-            "question": "ggg разворачивать, распространять",
-            "answer": "spread",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 319,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 09:00:16",
-            "title": "English",
-            "question": "ggg портить",
-            "answer": "spoil (spoilt spoiled)",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 318,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:59:35",
-            "title": "English",
-            "question": "ggg разделять, раскалывать",
-            "answer": "split",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 317,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:59:01",
-            "title": "English",
-            "question": "ggg крутить",
-            "answer": "spin spun",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 316,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:58:35",
-            "title": "English",
-            "question": "ggg разлить",
-            "answer": "spill (spilt spilled)",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 315,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:57:41",
-            "title": "English",
-            "question": "ggg тратить, проводить время",
-            "answer": "spend spent",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 314,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:57:10",
-            "title": "English",
-            "question": "ggg произносить или писать по буквам",
-            "answer": "spell (spelt spelled)",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 313,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:56:27",
-            "title": "English",
-            "question": "ggg говорить",
-            "answer": "speak spoke spoken",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 312,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:55:59",
-            "title": "English",
-            "question": "ggg \tпахнуть, нюхать",
-            "answer": "smell smelt",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 311,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:55:28",
-            "title": "English",
-            "question": "ggg скользить",
-            "answer": "slide slid",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 310,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:54:53",
-            "title": "English",
-            "question": "ggg спать",
-            "answer": "sleep slept",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 309,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:54:27",
-            "title": "English",
-            "question": "ggg сидеть",
-            "answer": "sit sat",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 308,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:53:50",
-            "title": "English",
-            "question": "ggg петь",
-            "answer": "sing sang sung",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 307,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:53:22",
-            "title": "English",
-            "question": "ggg \tзакрывать, затворять",
-            "answer": "shut",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 306,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:53:02",
-            "title": "English",
-            "question": "ggg сжиматься",
-            "answer": "shrink shrank shrunk",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 305,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:52:28",
-            "title": "English",
-            "question": "ggg показывать",
-            "answer": "show showed shown",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 304,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:51:56",
-            "title": "English",
-            "question": "ggg стрелять",
-            "answer": "shoot shot",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 303,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:51:32",
-            "title": "English",
-            "question": "ggg светить, сиять",
-            "answer": "shine shone ",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 302,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:50:55",
-            "title": "English",
-            "question": "ggg трясти",
-            "answer": "shake shook shaken",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 301,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:50:26",
-            "title": "English",
-            "question": "ggg устанавливать",
-            "answer": "set",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 300,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:50:10",
-            "title": "English",
-            "question": "ggg посылать",
-            "answer": "send sent",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 299,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:49:44",
-            "title": "English",
-            "question": "ggg продавать",
-            "answer": "sell sold",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
-        {
-            "id": 298,
-            "addingId": 52,
-            "dataToday": "Sun Nov 05 2023 08:49:20",
-            "title": "English",
-            "question": "ggg искать",
-            "answer": "seek sought ",
-            "ourAnswer": "",
-            "fakeAnswer": "",
-            "image": "url()"
-        },
+        
+        
+        
+        
+        
+        
         {
             "id": 297,
             "addingId": 52,
@@ -4394,105 +4807,12 @@ const Glagoly = [
     
 ]
 const News =[
-    {
-        "id": 295,
-        "addingId": 60,
-        "dataToday": "Wed Nov 08 2023 09:24:36",
-        "title": "English",
-        "question": "запретить",
-        "answer": "to ban",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 294,
-        "addingId": 60,
-        "dataToday": "Wed Nov 08 2023 09:23:03",
-        "title": "English",
-        "question": "суд постановил",
-        "answer": "the court ruled",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 293,
-        "addingId": 60,
-        "dataToday": "Wed Nov 08 2023 09:21:44",
-        "title": "English",
-        "question": "готовый",
-        "answer": "poised",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 292,
-        "addingId": 60,
-        "dataToday": "Wed Nov 08 2023 09:20:54",
-        "title": "English",
-        "question": "единогласно",
-        "answer": "unanimously",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 291,
-        "addingId": 60,
-        "dataToday": "Wed Nov 08 2023 09:18:57",
-        "title": "English",
-        "question": "широкий спектр",
-        "answer": "wide-ranging",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 290,
-        "addingId": 60,
-        "dataToday": "Wed Nov 08 2023 09:17:27",
-        "title": "English",
-        "question": "главный судья",
-        "answer": "chief justice",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 289,
-        "addingId": 60,
-        "dataToday": "Wed Nov 08 2023 09:16:14",
-        "title": "English",
-        "question": "побуждение",
-        "answer": "prompting",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 288,
-        "addingId": 60,
-        "dataToday": "Wed Nov 08 2023 09:15:01",
-        "title": "English",
-        "question": "право хранить и носить оружие",
-        "answer": "right to keep and bear arms",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
-    {
-        "id": 287,
-        "addingId": 60,
-        "dataToday": "Wed Nov 08 2023 09:14:03",
-        "title": "English",
-        "question": "вторая поправка",
-        "answer": "second amendment",
-        "ourAnswer": "",
-        "fakeAnswer": "",
-        "image": "url()"
-    },
    
     
-]
+    
+    
+    
+    
+]  
+    
+   
